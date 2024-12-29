@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+
+/*@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");*/
+:root{
+    --site-body-color: #F9F9FA;
+    --site-bg-primary-color: #6610f2;
+    --site-bg-primary-color-hover: #230B66;
+    --site-bg-secondary-color: #021526;
+    --site-text-color-light: #FFFFFF;
+    --site-text-color-dark: #021526;
+    /*--site-text-color-light: #EBEAFF;*/
+    --site-border-color-light: rgba(200, 213, 221, 0.65);
+}
+body{
+    font-family: "Hind Siliguri", sans-serif!important;
+    font-weight: 400;
+    background-color: var(--site-body-color);
+}
+
+
+#markdown h3{
+    background: #021526;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    line-height: 1.5;
+    word-break: normal;
+    font-size: 18px;
+}
+
+#markdown h4{
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-size: 16px;
+    text-decoration-color: #c2b6b6;
+    margin-bottom: 15px;
+}
+
+#markdown ul p, #markdown ol p{
+    margin: 0;
+    line-height: 1.5;
+}
+#markdown ul li *:last-child, #markdown ol li *:last-child{
+    margin-bottom: 15px;
+}
+
+
+#markdown ul, #markdown ol{
+    margin: 10px 0;
+}
+
+#markdown ul pre, #markdown ol pre{
+    margin: 10px 0;
+}
+
+#markdown table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+
+
+
+#markdown strong{
+    font-weight: bold;
+}
+
+#markdown h1{
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 4px solid #ec3535;
+    padding-left: 5px;
+}
+
+body{
+
+}
+
+.playwrite-hr-lijeva-regular {
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.tiro-bangla-regular, .number {
+    font-family: "Tiro Bangla", serif!important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tiro-bangla-regular-italic {
+    font-family: "Tiro Bangla", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.font-light {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font-regular {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-medium {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.font-semibold {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font-bold {
+    font-family: "Hind Siliguri", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+
+.btn-brand{
+    background-color: var(--site-bg-primary-color);
+    color: var(--site-text-color-light);
+}
+
+.btn-brand:hover{
+    background-color: var(--site-bg-primary-color-hover);
+    color: var(--site-text-color-light);
+}
+
+.btn-brand-secondary{
+    background-color: var(--site-bg-secondary-color);
+    color: var(--site-text-color-light);
+}
+
+.btn-brand-secondary:hover{
+    background-color: var(--site-bg-primary-color-hover);
+    color: var(--site-text-color-light);
+}
+
+.navbar-toggler{
+    border: 2px solid var(--site-bg-primary-color);
+    color: var(--site-bg-primary-color);
+}
+
+
+.btn-light{
+    background-color: var(--site-border-color-light);
+    font-weight: 500;
+}
+
+.btn-light:hover{
+    background-color: var(--site-border-color-light);
+    font-weight: 500;
+}
+
+#navbar{
+    background-color: var(--site-text-color-light);
+}
+
+.navbar-brand{
+    color: var(--site-bg-primary-color)!important;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.nav-link{
+    padding: 8px 10px!important;
+    font-size: 18px;
+    font-weight: 500!important;
+    color: var(--site-text-color-dark)!important;
+    text-underline-offset: 7px!important;
+    text-decoration-thickness: 2px!important;
+}
+
+.nav-link:hover{
+    color: var(--site-bg-primary-color)!important;
+    text-decoration: underline;
+}
+
+.banner-search-box{
+    background-color: rgba(74, 10, 138, 0.1);
+    width: 100%;
+    padding: 40px 100px;
+}
+
+
+.banner-search-box-area{
+    height: 150px;
+    width: 100%;
+}
+
+.courses .course-title{
+    padding: 0 0 10px 0;
+    /*border-bottom: 1px solid var(--site-border-color-light);*/
+}
+
+.course-info-icon-text{
+    padding: 10px 0;
+    border-bottom: 1px solid var(--site-border-color-light);
+    margin-bottom: 10px;
+}
+.course-info-icon-text div{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+#footer{
+    padding: 30px 10px;
+    background-color: var(--site-bg-secondary-color);
+    color: var(--site-text-color-light);
+}
+
+#footer .nav-link{
+    color: var(--site-text-color-light)!important;
+}
+
+/*COURSE DETAILS PAGE CSS*/
+.course-details .course-topics{
+    background-color: var(--site-text-color-light);
+    border: 1px solid var(--site-border-color-light);
+}
+
+.course-details .course-topic-title{
+    padding: 10px 15px;
+    background-color: var(--site-bg-primary-color);
+    color: var(--site-text-color-light);
+    border-radius: 6px;
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.course-details .course-topics .nav-link{
+    display: flex;
+    border-bottom: 1px solid var(--site-border-color-light);
+}
+
+
+
+
+.course-details .course-topics .nav-link i{
+    padding-right: 10px;
+}
+
+.course-guide-line-links{
+    border: 1px solid var(--site-border-color-light);
+}
+
+.course-details .course-topic-guideline-title{
+    padding: 10px 10px;
+    background-color: var(--site-bg-secondary-color);
+    color: var(--site-text-color-light);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.course-guide-line-links .nav-link{
+    padding-left: 2px!important;
+    font-size: 16px;
+    text-decoration-thickness: 1px!important;
+}
+
+.course-details .description-area{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid var(--site-border-color-light);
+}
+
+.description-area *:not(pre *){
+    font-family: "Tiro Bangla", serif!important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.description-area h1, .description-area h2 , .description-area h3, .description-area h4, .description-area h5, .description-area h6{
+    /*font-family: "Hind Siliguri", sans-serif!important;*/
+}
+
+.prev-next{
+    background-color: var(--site-text-color-light);
+    border: 1px solid var(--site-border-color-light);
+}
+
+/*COMING SOON PAGE CSS*/
+.coming-soon{
+    padding: 100px 30px;
+    text-align: center;
+    background-color: var(--site-text-color-light);
+}
+
+.coming-soon-area i{
+    font-size: 100px;
+}
+
+.coming-soon-area *{
+    margin-top: 1px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid var(--site-bg-secondary-color)
+}
+
+.account-sidebar .nav-link{
+    border-bottom: 1px solid rgba(112, 128, 144, 0.24);
+}
+
+.account-sidebar .nav-link.active{
+    text-decoration: none;
+    background-color: rgba(105, 50, 213, 0.07);
+}
+
+.account-sidebar .nav-link:hover{
+    text-decoration: none;
+    background-color: rgba(105, 50, 213, 0.07);
+}
+
+.pagination .page-item .page-link{
+    color: var(--site-bg-secondary-color);
+}
+.pagination .page-item .page-link:focus{
+    box-shadow: none;
+}
+.pagination .page-item.active .page-link{
+    background-color: var(--site-bg-secondary-color);
+    border: none;
+    color: white;
+}
+
+.bg-brand{
+    background-color: var(--site-bg-primary-color);
+}
+
+tr td{
+    vertical-align: middle;
+}
+
+.slide-expend-btn:hover .text{
+    display: inline-block!important;
+}
+
+
+
