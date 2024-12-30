@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('short_desc')->nullable()->default(null);
             $table->string('logo', 2000)->nullable()->default(null);
             $table->boolean('is_active')->default(true);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

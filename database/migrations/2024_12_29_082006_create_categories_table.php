@@ -23,6 +23,7 @@ return new class extends Migration
             $table->enum('show_as_banner',
                 ['none', 'image', 'video', 'slides']  //Slides Comes From Another Table
             )->default('none');
+            $table->softDeletes();
             $table->unsignedBigInteger('parent_id')->nullable()->default(null);
             $table->foreign('parent_id')->references('id')->on('categories');
             $table->timestamps();

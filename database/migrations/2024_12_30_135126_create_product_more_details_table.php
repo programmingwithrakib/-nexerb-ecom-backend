@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('colors', function (Blueprint $table) {
+        Schema::create('product_more_details', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('code');
+            $table->string('title');
+            $table->enum('position', ['default', 'top', 'right', 'left', 'bottom'])->default('default');
+            $table->longText('description');
             $table->boolean('status')->default(true);
-            $table->softDeletes();
+            $table->unsignedBigInteger('product_id');
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('colors');
+        Schema::dropIfExists('product_more_details');
     }
 };
