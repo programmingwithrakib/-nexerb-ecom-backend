@@ -17,6 +17,7 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id')->nullable()->default(null);
             $table->string('name');
             $table->string('slug');
+            $table->string('sku')->nullable()->default(null);
             $table->string('unit')->nullable()->default(null);
             $table->integer('min_purchase_quantity')->nullable()->default(null);
             $table->longText('description')->nullable()->default(null);
