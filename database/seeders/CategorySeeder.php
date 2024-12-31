@@ -32,12 +32,98 @@ class CategorySeeder extends Seeder
                     [
                         'name' => 'tops',
                         'children' => [
-                            ['name' => 'A'],
-                            ['name' => 'B'],
-                            ['name' => 'C'],
+                            ['name' => 'Blazers'],
+                            ['name' => 'Jackets'],
+                            ['name' => 'Hoodies'],
+                            ['name' => 'Sweaters'],
+                            ['name' => 'Activewear'],
+                            ['name' => 'Winter Vests'],
+                            ['name' => 'Casual Shirts'],
+                            ['name' => 'Formal Shirts'],
+                            ['name' => 'T-Shirts'],
+                            ['name' => 'Polos'],
+                            ['name' => 'Sherwanis'],
+                            ['name' => 'Kabli Set'],
+                            ['name' => 'Panjabi Sets'],
+                            ['name' => 'Ethnic Vests'],
+                            ['name' => 'Bottoms'],
                         ]
                     ],
-                    ['name' => 'bottoms'],
+                    ['name' => 'bottoms',
+                    'children' => [
+                            ['name' => 'Pajamas'],
+                            ['name' => 'Formal Pants'],
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Twill Pants'],
+                            ['name' => 'Joggers'],
+                            ['name' => 'Cargo Pants'],
+                        ]
+                    ],
+                ]
+            ],
+            [
+                'name' => 'Womens',
+                'children' => [
+                    [
+                        'name' => 'tops',
+                        'children' => [
+                            ['name' => 'Blazers'],
+                            ['name' => 'Sweaters'],
+                            ['name' => 'Jackets'],
+                            ['name' => 'Hoodies'],
+                            ['name' => 'Activewear'],
+                            ['name' => 'Three-Piece Sets'],
+                            ['name' => 'Two-Piece Sets'],
+                            ['name' => 'Gowns'],
+                            ['name' => 'Kurtis'],
+                            ['name' => 'Tops'],
+                            ['name' => 'Boxy'],
+                            ['name' => 'Tunic Tops'],
+                            ['name' => 'Dresses'],
+                            ['name' => 'Dupattas'],
+                            ['name' => 'Shrugs'],
+                            ['name' => 'Ponchos'],
+                        ]
+                    ],
+                    ['name' => 'bottoms',
+                    'children' => [
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Leggings'],
+                            ['name' => 'Ethnic Bottoms'],
+                            ['name' => 'Western Bottoms'],
+                        ]
+                    ],
+                ]
+            ],
+            [
+                'name' => 'Kids',
+                'children' => [
+                    [
+                        'name' => 'Boys',
+                        'children' => [
+                            ['name' => 'Jackets'],
+                            ['name' => 'Shirts'],
+                            ['name' => 'Polos'],
+                            ['name' => 'Panjabi'],
+                            ['name' => 'Pants'],
+                        ]
+                    ],
+                    ['name' => 'Girls',
+                    'children' => [
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Leggings'],
+                            ['name' => 'Ethnic Bottoms'],
+                            ['name' => 'Western Bottoms'],
+                        ]
+                    ],
+                    ['name' => 'New Born',
+                    'children' => [
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Leggings'],
+                            ['name' => 'Ethnic Bottoms'],
+                            ['name' => 'Western Bottoms'],
+                        ]
+                    ],
                 ]
             ]
 
