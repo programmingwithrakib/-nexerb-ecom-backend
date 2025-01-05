@@ -1,12 +1,14 @@
 # Single Vendor E-com front end API Docs
 
+##
+
 ### All Categories 
 
 - Method: `GET` 
 
 - URL: `https://ecom.nexerb.xyz/api/categories`
 
-### Request Example 
+#### Request Example 
 
 ```js
 const options = {
@@ -20,7 +22,7 @@ axios.request(options).then(function (response) {
 //...
 });
 ```
-### Example Response `200`
+#### Example Response `200`
 
 ```
 {
@@ -77,7 +79,7 @@ axios.request(options).then(function (response) {
 
 - URL: `https://ecom.nexerb.xyz/api/home-categories`
 
-### Request Example 
+#### Request Example 
 
 ```js
 const options = {
@@ -92,7 +94,7 @@ axios.request(options).then(function (response) {
 });
 ```
 
-### Example Response `200`
+#### Example Response `200`
 
 ```
 {
