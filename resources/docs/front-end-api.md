@@ -13,7 +13,7 @@
 ```js
 const options = {
 method: 'GET',
-url: 'http://127.0.0.1:8000/api/categories',
+url: 'https://ecom.nexerb.xyz/api/categories',
 };
 
 axios.request(options).then(function (response) {
@@ -84,7 +84,7 @@ axios.request(options).then(function (response) {
 ```js
 const options = {
 method: 'GET',
-url: 'http://127.0.0.1:8000/api/home-categories',
+url: 'https://ecom.nexerb.xyz/api/home-categories',
 };
 
 axios.request(options).then(function (response) {

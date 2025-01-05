@@ -16,6 +16,13 @@
         <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script src="{{asset("assets/vendors/markdown-it.min.js")}}"></script>
+        <style>
+            #markdown h1{
+                margin-bottom: 30px;
+                background-color: #ffece8;
+                padding: 20px 0;
+            }
+        </style>
         <script>
             const md = window.markdownit();
         </script>
