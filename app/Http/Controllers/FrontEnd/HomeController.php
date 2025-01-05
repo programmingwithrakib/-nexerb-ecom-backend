@@ -3,16 +3,16 @@
 namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
-use App\Http\Resources\FrontEnd\CategoryResource;
-use App\Models\Category;
+use App\Http\Resources\FrontEnd\HomeCategoryResource;
+use App\Models\HomeCategory;
 use App\Utils\Helper;
 use Illuminate\Http\Request;
 
-class CategoryController extends Controller
+class HomeController extends Controller
 {
     public function index()
     {
-        $data = CategoryResource::collection(Category::whereNull('parent_id')->get());
+        $data = HomeCategoryResource::collection(HomeCategory::get());
         return Helper::ApiResponse('', $data);
     }
 }

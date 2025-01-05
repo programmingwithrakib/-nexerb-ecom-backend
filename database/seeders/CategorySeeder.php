@@ -3,9 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Category;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 
 class CategorySeeder extends Seeder
@@ -32,14 +30,129 @@ class CategorySeeder extends Seeder
                     [
                         'name' => 'tops',
                         'children' => [
-                            ['name' => 'A'],
-                            ['name' => 'B'],
-                            ['name' => 'C'],
+                            ['name' => 'Blazers'],
+                            ['name' => 'Jackets'],
+                            ['name' => 'Hoodies'],
+                            ['name' => 'Sweaters'],
+                            ['name' => 'Activewear'],
+                            ['name' => 'Winter Vests'],
+                            ['name' => 'Casual Shirts'],
                         ]
                     ],
-                    ['name' => 'bottoms'],
+
+                    [
+                        'name' => 'bottoms',
+                        'children' => [
+                            ['name' => 'Pajamas'],
+                            ['name' => 'Formal Pants'],
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Twill Pants'],
+                            ['name' => 'Joggers'],
+                            ['name' => 'Cargo Pants']
+                        ]
+                    ],
                 ]
+            ],
+
+            [
+                'name' => 'Womens',
+                'children' => [
+                    [
+                        'name' => 'tops',
+                        'children' => [
+                            ['name' => 'Blazers'],
+                            ['name' => 'Jackets'],
+                            ['name' => 'Hoodies'],
+                            ['name' => 'Sweaters'],
+                            ['name' => 'Activewear'],
+                            ['name' => 'Winter Vests'],
+                            ['name' => 'Casual Shirts'],
+                        ]
+                    ],
+
+                    [
+                        'name' => 'bottoms',
+                        'children' => [
+                            ['name' => 'Leggings'],
+                            ['name' => 'Formal Pants'],
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Ethnic Bottoms'],
+                            ['name' => 'Western Bottoms'],
+                        ]
+                    ],
+                ]
+            ],
+
+            [
+                'name' => 'Kids',
+                'children' => [
+                    [
+                        'name' => 'Boys',
+                        'children' => [
+                            ['name' => 'Blazers'],
+                            ['name' => 'Jackets'],
+                            ['name' => 'Hoodies'],
+                            ['name' => 'Sweaters'],
+                            ['name' => 'Activewear'],
+                            ['name' => 'Winter Vests'],
+                            ['name' => 'Casual Shirts'],
+                        ]
+                    ],
+                    [
+                        'name' => 'Girls',
+                        'children' => [
+                            ['name' => 'Leggings'],
+                            ['name' => 'Formal Pants'],
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Ethnic Bottoms'],
+                            ['name' => 'Western Bottoms'],
+                        ]
+                    ],
+                    [
+                        'name' => 'New Born',
+                        'children' => [
+                            ['name' => 'Leggings'],
+                            ['name' => 'Formal Pants'],
+                            ['name' => 'Denim Pants'],
+                            ['name' => 'Ethnic Bottoms'],
+                            ['name' => 'Western Bottoms'],
+                        ]
+                    ],
+                ]
+            ],
+
+            [
+            'name' => 'Accessories',
+            'children' => [
+                [
+                    'name' => 'Bags',
+                    'children' => [
+                        ['name' => 'Backpack'],
+                        ['name' => 'Ladis Bangs']
+                    ]
+                ],
+                [
+                    'name' => 'Mufflers',
+                    'children' => []
+                ],
+                [
+                    'name' => 'Scarves',
+                    'children' => []
+                ],
+                [
+                    'name' => 'Shoes',
+                    'children' => []
+                ],
+                [
+                    'name' => 'Caps',
+                    'children' => []
+                ],
+                [
+                    'name' => 'Socks',
+                    'children' => []
+                ],
             ]
+        ]
 
         ];
 
@@ -56,17 +169,17 @@ class CategorySeeder extends Seeder
                     'parent_id' => $main_category->id,
                 ]);
 
-                foreach ($child['children'] ?? [] as $child) {
+                foreach ($child['children'] ?? [] as $sub_child) {
                     $sub_sub_cat = Category::create([
-                        'name' => $child['name'],
-                        'slug' => Str::slug($child['name']),
+                        'name' => $sub_child['name'],
+                        'slug' => Str::slug($sub_child['name']),
                         'parent_id' => $sub_cat->id,
                     ]);
 
-                    foreach ($child['children'] ?? [] as $child) {
+                    foreach ($sub_child['children'] ?? [] as $sub_sub_child) {
                         $sub_sub_sub_cat = Category::create([
-                            'name' => $child['name'],
-                            'slug' => Str::slug($child['name']),
+                            'name' => $sub_sub_child['name'],
+                            'slug' => Str::slug($sub_sub_child['name']),
                             'parent_id' => $sub_sub_cat->id,
                         ]);
                     }

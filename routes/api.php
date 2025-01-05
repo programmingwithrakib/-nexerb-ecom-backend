@@ -9,3 +9,4 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 Route::get('/categories', [FrontEnd\CategoryController::class, 'index']);
+Route::get('/home-categories', [FrontEnd\HomeController::class, 'index']);
