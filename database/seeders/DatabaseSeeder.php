@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Artisan;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,13 +14,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
-        $this->call(CategoriesTableSeeder::class);
-        $this->call(BrandsTableSeeder::class);
+        Artisan::call('migrate:refresh');
+        $this->call(BrandSeeder::class);
         $this->call(ColorSeeder::class);
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+        $this->call(CategorySeeder::class);
+        $this->call(ProductSeeder::class);
+        $this->call(VariationAttributeSeeder::class);
+        $this->call(ProductVariatSeeder::class);
+        $this->call(HomeCategorySeeder::class);
+        $this->call(HomeCategoryProductSeeder::class);
+        $this->call(CategorySliderSeeder::class);
+        $this->call(SuggestionSeeder::class);
+        $this->call(SuggestionKeywordSeeder::class);
+        $this->call(SuggestionProductSeeder::class);
     }
 }

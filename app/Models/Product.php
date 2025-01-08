@@ -35,4 +35,6 @@ class Product extends Model
     {
         return $this->getFirstVariantProduct()?->after_discount_value ?? 0;
     }
+
+
 }

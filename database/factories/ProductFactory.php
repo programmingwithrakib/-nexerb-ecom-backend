@@ -30,6 +30,7 @@ class ProductFactory extends Factory
             'name' => $name,
             'slug' => Str::slug($name),
             'description' => $this->faker->text(),
+            'keywords' => implode(',', $this->faker->words(5)),
             'unit' => 'pcs',
             'sku' => $this->faker->unique()->ean8(),
             'available_emi' => $this->faker->randomElement([true, false]),

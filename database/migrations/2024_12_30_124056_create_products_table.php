@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('unit')->nullable()->default(null);
             $table->integer('min_purchase_quantity')->nullable()->default(null);
             $table->longText('description')->nullable()->default(null);
+            $table->text('keywords')->nullable()->default(null);
             $table->string('thumbnail', 2000)->nullable()->default(null);
             $table->string('video', 2000)->nullable()->default(null);
             $table->enum('video_provider', ['local', 'youtube', 'vimeo', 'instagram'])->nullable()->default(null);

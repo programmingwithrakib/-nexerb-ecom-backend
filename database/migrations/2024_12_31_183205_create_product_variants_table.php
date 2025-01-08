@@ -20,7 +20,7 @@ return new class extends Migration
             $table->double('buy_price')->default(0);
             $table->string('sku')->nullable()->default(null);
             $table->double('discount_amount')->default(0);
-            $table->enum('discount_type', ['flat', 'percent'])->default('flat');
+            $table->enum('discount_type', ['flat', 'percent'])->nullable()->default(null);
             $table->date('discount_start_date')->nullable()->default(null);
             $table->date('discount_end_date')->nullable()->default(null);
             $table->string('thumbnail', 2000)->nullable();
