@@ -10,3 +10,5 @@ Route::get('/user', function (Request $request) {
 
 Route::get('/categories', [FrontEnd\CategoryController::class, 'index']);
 Route::get('/home-categories', [FrontEnd\HomeController::class, 'index']);
+Route::get('/home-sliders', [FrontEnd\HomeController::class, 'home_sliders']);
+Route::get('/search-suggestion', [FrontEnd\SearchController::class, 'search_suggestion']);
