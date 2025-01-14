@@ -13,3 +13,4 @@ Route::get('/home-categories', [FrontEnd\HomeController::class, 'index']);
 Route::get('/home-sliders', [FrontEnd\HomeController::class, 'home_sliders']);
 Route::get('/search-suggestion', [FrontEnd\SearchController::class, 'search_suggestion']);
 Route::get('/search-suggestion/{text}', [FrontEnd\SearchController::class, 'search_suggestion_product']);
+Route::get('products', [FrontEnd\ProductController::class, 'get_products']);

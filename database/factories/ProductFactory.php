@@ -30,14 +30,14 @@ class ProductFactory extends Factory
             'name' => $name,
             'slug' => Str::slug($name),
             'description' => $this->faker->text(),
-            'keywords' => implode(',', $this->faker->words(5)),
             'unit' => 'pcs',
             'sku' => $this->faker->unique()->ean8(),
             'available_emi' => $this->faker->randomElement([true, false]),
             'is_active' => $this->faker->randomElement([true, false]),
             'in_stock' => $this->faker->randomElement([true, false]),
             'is_published' => $this->faker->randomElement([true, false]),
-            'thumbnail' => $this->faker->imageUrl('300px', '400px')
+            'thumbnail' => $this->faker->imageUrl('300px', '400px'),
+            'thumbnail_next' => $this->faker->imageUrl('300px', '400px')
         ];
     }
 }

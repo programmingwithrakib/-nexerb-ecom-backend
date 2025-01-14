@@ -14,6 +14,10 @@ class Product extends Model
     {
         return $this->hasMany(ProductVariant::class);
     }
+    public function product_keywords()
+    {
+        return $this->hasMany(ProductKeywords::class);
+    }
 
 
     private function getFirstVariantProduct()
@@ -27,13 +31,32 @@ class Product extends Model
     }
 
 
+    public function getDiscountAmountFlatAttribute()
+    {
+        $product = $this->getFirstVariantProduct();
+        $sell_price =  $product?->sell_price ?? 0;
+        $after_discount_sell_price = $product->after_discount_sell_price ?? 0;
+        $price =  $sell_price - $after_discount_sell_price;
+        return round($price, 2);
+    }
     public function getDiscountAmountAttribute()
     {
-        return $this->getFirstVariantProduct()?->discount_value ?? 0;
+        $product = $this->getFirstVariantProduct();
+        $discount_type = $product?->discount_type ?? '';
+        $discount_amount = $product?->discount_amount ?? 0;
+        if ($discount_type == 'percent') {
+            return $discount_amount . "%";
+        }
+        else{
+            return $discount_amount;
+        }
     }
+
+
+
     public function getAfterDiscountPriceAttribute()
     {
-        return $this->getFirstVariantProduct()?->after_discount_value ?? 0;
+        return $this->getFirstVariantProduct()?->after_discount_sell_price ?? 0;
     }
 
 

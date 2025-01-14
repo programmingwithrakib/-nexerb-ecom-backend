@@ -32,6 +32,8 @@ class ProductVariantFactory extends Factory
             $discount_amount = fake()->randomFloat('2', '10', '500');
         }
 
+        $after_discount_sell_price = $sell_price - $discount_amount;
+
         $attribute_id = fake()->randomElement(VariationAttribute::get()->pluck('id')->toArray());
         $option_id = fake()->randomElement(VariationOption::where('variation_attribute_id', $attribute_id)->get()->pluck('id')->toArray());
         return [
@@ -43,6 +45,7 @@ class ProductVariantFactory extends Factory
             'sku' => fake()->unique()->ean8(),
             'thumbnail' => fake()->imageUrl('500', '500'),
             'stock_quantity' => fake()->randomDigit(),
+            'after_discount_sell_price' => $after_discount_sell_price,
             'discount_amount' => $discount_amount,
             'discount_type' => $discount_type,
             'in_stock' => fake()->randomElement([true, false]),

@@ -19,6 +19,7 @@ class ProductResource extends JsonResource
             'brand' => $this->brand,
             'category' => $this->category,
             'thumbnail' => $this->thumbnail,
+            'thumbnail_next' => $this->thumbnail_next,
             'in_stock' => $this->in_stock,
             'price' => $this->product_price,
             'discount_amount' => $this->discount_amount,
