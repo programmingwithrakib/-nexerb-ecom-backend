@@ -14,8 +14,9 @@ return new class extends Migration
         Schema::create('product_variants', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('product_id');
-            $table->unsignedBigInteger('variation_attribute_id');
-            $table->unsignedBigInteger('variation_option_id');
+            $table->string('variation_combinations')->comment('variation_options_array');
+            $table->string('variant_name')->nullable()->default(null);
+            $table->string('model_number')->nullable()->default(null);
             $table->double('sell_price')->default(0);
             $table->double('buy_price')->default(0);
             $table->string('sku')->nullable()->default(null);
@@ -32,8 +33,6 @@ return new class extends Migration
             $table->timestamps();
             $table->softDeletes();
             $table->foreign('product_id')->references('id')->on('products');
-            $table->foreign('variation_attribute_id')->references('id')->on('variation_attributes');
-            $table->foreign('variation_option_id')->references('id')->on('variation_options');
         });
     }
 

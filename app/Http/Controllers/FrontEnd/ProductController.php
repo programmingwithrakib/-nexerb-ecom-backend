@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
+use App\Http\Resources\FrontEnd\ProductDetailResource;
 use App\Http\Resources\FrontEnd\ProductResource;
 use App\Http\Resources\FrontEnd\VariationResource;
 use App\Models\Category;
@@ -10,8 +11,10 @@ use App\Models\Product;
 use App\Models\ProductKeywords;
 use App\Models\ProductVariant;
 use App\Models\VariationAttribute;
+use App\Models\VariationOption;
 use App\Utils\Helper;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 
 
@@ -40,7 +43,7 @@ class ProductController extends Controller
                 $product_variants->whereBetween('after_discount_sell_price', [$min_price, $max_price]);
             }
 
-            if ($variations_query){
+            /*if ($variations_query){
                 $variation_array = explode(' ', $variations_query);
                 $product_variants->whereHas('variation_option', function ($variation_option) use ($variation_array) {
                    $variation_option->where(function ($query) use ($variation_array) {
@@ -50,7 +53,7 @@ class ProductController extends Controller
                    });
                 });
 
-            }
+            }*/
         });
 
 
@@ -77,9 +80,17 @@ class ProductController extends Controller
 
         $product_ids = $product_query->pluck('id')->toArray();
         $category_ids = $product_query->pluck('category_id')->unique()->toArray();
-        $products =  $product_query->with(['product_variants.variation_option', 'product_keywords'])->limit($limit)->skip($offset)->get();
+        $products =  $product_query->with(['product_keywords'])->limit($limit)->skip($offset)->get();
 
-        $variation_option_ids = ProductVariant::whereIn('product_id', $product_ids)->pluck('variation_option_id')->toArray();
+        $variation_option_ids = Cache::remember('variation_options_ids', now()->addMinutes(10), function () use ($product_ids) {
+            return ProductVariant::whereIn('product_id', $product_ids)
+                ->pluck('variation_combinations')
+                ->flatMap(function ($variation_combinations) {
+                    return json_decode($variation_combinations);
+                })->unique()->toArray();
+        });
+
+
         $variations = VariationAttribute::whereIn('id', $variation_option_ids)->with('variation_options')->get();
 
 
@@ -96,8 +107,6 @@ class ProductController extends Controller
                 'count_of_product' => $item->products_count,
             ];
         });
-
-
 
 
         return Helper::ApiResponse('', [
@@ -132,5 +141,30 @@ class ProductController extends Controller
             'variations' => VariationResource::collection($variations),
             'products' => ProductResource::collection($products),
         ]);
+    }
+
+
+    public function mergeCombination($item){
+        $d = [];
+        // If it's an array, recursively flatten the array
+        if(is_array($item)){
+            foreach ($item as $subItem) {
+                $d = array_merge($d, $this->mergeCombination($subItem));  // Recursively flatten
+            }
+        }
+        // If it's numeric, add to the result array
+        elseif (is_numeric($item)){
+            $d[] = $item;
+        }
+        return $d;
+    }
+
+    public function product_details($slug)
+    {
+
+        $product = Product::where('slug', $slug)->firstOrFail();
+
+
+        return Helper::ApiResponse('', ProductDetailResource::make($product));
     }
 }

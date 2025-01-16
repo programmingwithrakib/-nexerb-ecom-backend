@@ -1,0 +1,570 @@
+লারাভেল টপিক লিস্ট
+
+- লারাভেল আরকিটেকচার এন্ড ওয়েব টারমিনলজি
+    লারাভেল পরিচিতি
+    লারাভেল স্ট্রাকচার বোঝা
+    লারাভেল আর্টিসান কমান্ডস
+    লারাভেল রাউটিং
+    পোস্টম্যান দিয়ে রাউটিং পরীক্ষা
+    সার্ভার-সাইড এবং ক্লায়েন্ট-সাইড
+    রিকোয়েস্ট এবং রেসপন্স মডেল
+    রাউটিং এবং কন্ট্রোলার ধারণা
+    মিডলওয়্যার ধারণা
+    JSON পরিচিতি
+    JSON স্ট্রাকচার বোঝা
+    JSON-এর সেরা ব্যবহারবিধি
+    HTTP ক্লায়েন্টের কার্যপ্রণালী
+    HTTP রিকোয়েস্ট সেগমেন্ট
+    GET এবং POST তুলনা
+    কখন GET কখন POST ব্যবহার করবেন
+    রিকোয়েস্ট রেট লিমিটিং
+    রেসপন্স সেগমেন্ট
+    রেসপন্স স্ট্যাটাস কোড
+    URI নেমিং-এর সেরা পদ্ধতি
+    HTTP কুকিজের বিস্তারিত
+    HTTP কুকিজের ব্যবহার
+    রেসপন্সের সেরা পদ্ধতি-১
+    রেসপন্সের সেরা পদ্ধতি-২
+    রিকোয়েস্টের সেরা পদ্ধতি
+    কন্ট্রোলারের সেরা পদ্ধতি
+    মিডলওয়্যারের সেরা পদ্ধতি
+    এনক্রিপশন এবং ডিক্রিপশন প্রক্রিয়া
+    JSON Web Token (JWT) ধারণা
+    JWT স্ট্রাকচার
+    JWT এনক্রিপশন এবং ডিক্রিপশন সিমুলেট
+    CSR এবং SSR ধারণা
+    SSR-এর সুবিধা
+    SSR-এর অসুবিধা
+    CSR-এর সুবিধা
+    CSR-এর অসুবিধা
+    CSR এবং SSR-এর অপ্টিমাইজড সমাধান
+
+- লারাভেল রিকুয়েস্ট ও রেসপন্স মডেল এর বিস্তারিত
+    রিকোয়েস্টের মৌলিক বিষয়
+    রিকোয়েস্ট প্যারামিটারের ব্যবহার
+    রিকোয়েস্ট JSON বডি নিয়ে কাজ
+    রিকোয়েস্ট হেডার নিয়ে কাজ
+    হেডার, বডি এবং প্যারামস
+    ফর্মের মাধ্যমে ডেটা প্রক্রিয়া
+    ফাইল আপলোডের পদ্ধতি
+    IP অ্যাড্রেস এবং কনটেন্ট ব্যবস্থাপনা
+    রিকোয়েস্ট কুকি এর কার্য পদ্ধতি
+    বিভিন্ন ধরণের রেসপন্স ফরম্যাট
+    JSON রেসপন্স ফরম্যাট
+    রিডাইরেক্ট রেসপন্স
+    বাইনারি এবং ফাইল ডাউনলোড রেসপন্স
+    রেসপন্সের মাধ্যমে কুকি সেট করা
+    রেসপন্স এ হেডার সেট করা
+    রেসপন্স এ HTML ডাটা প্রদর্শন
+
+- লারাভেল মিডলওয়্যার, লগিং, সেশ এবং কন্ট্রলার
+    লারাভেল লগ ফিচার
+    লারাভেল সেশন (পর্ব-১)
+    লারাভেল সেশন (পর্ব-২)
+    লারাভেল স্ট্রাকচার পরিচিতি
+    রিকোয়েস্ট ভেরিফিকেশন
+    রিকোয়েস্ট রিডাইরেক্ট
+    রাউট এবং রাউট গ্রুপ এর কাজ
+    Apply For Whole Application
+    রিকোয়েস্ট হেডার ম্যানিপুলেশন
+    রেট লিমিটিং
+    বিস্তারিত কন্ট্রোলার ধারণা
+    সিঙ্গেল অ্যাকশন কন্ট্রোলার
+    রিসোর্স কন্ট্রোলার
+    কনস্ট্রাক্টরের সঙ্গে কাজ
+
+- লারাভেল ব্লেড টেম্লেট ইঞ্জিন
+    ব্লেড টেমপ্লেট ইঞ্জিন পরিচিতি
+    কন্ট্রোলার থেকে ভিউতে ডেটা পাঠানো
+    if-else শর্তানুযায়ী কোড পরিচালনা
+    Switch Case নির্দিষ্ট শর্ত নির্বাচন করার পদ্ধতি
+    For লুপ (কোডের পূনরাবৃত্তি)
+    For Each লুপ - (কোডের পূনরাবৃত্তি)
+    অ্যাসেট বা স্টেটিক ফাইল যুক্ত করা
+    সাবভিউ ব্যবহার করার কৌশল
+    একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ১
+    একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ২
+    একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ৩
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"HTML Introduction
+Basic Web Page
+HTML Text Formatting
+HTML Headings
+HTML Table Tags
+HTML Order List Unorder List
+HTML Form Elements
+HTML Images
+HTML Video
+HTML Audio
+HTML Youtube Embed
+HTML Meta Tags
+HTML No Cache Meta
+HTML Time Marks
+HTML Datalist Tags
+HTML Emojis
+CSS Introduction
+How to add CSS
+CSS Basic Syntax
+CSS Selector
+CSS Background properties
+CSS Border Properties
+Border Radius
+CSS Display Property
+CSS Cursor Property
+CSS Float Property
+CSS Fonts
+CSS Hover
+CSS Important
+CSS Line Height
+CSS Margin
+CSS Padding
+CSS Filter
+CSS Overflow
+CSS Position
+CSS Word Wrap
+CSS Justify content
+CSS text decoration
+CSS Word and letter spacing
+CSS Variable
+Bootstrap installation
+Features you needs to know
+Bootstrap light dark mode
+Layout container row column
+Responsive Layout
+Layout Gutters
+Bootstrap Typography
+Bootstrap Typography
+Bootstrap Images
+Bootstrap Table
+Bootstrap Table
+Bootstrap Form
+Bootstrap Form
+Bootstrap Form
+Bootstrap Form
+Bootstrap alert
+Bootstrap Button
+Bootstrap card
+Dropdown Button
+Bootstrap List Group And Spinner
+Bootstrap progress bar
+Bootstrap Placeholders
+Bootstrap Pagination
+Bootstrap offcanvas
+Bootstrap Modal
+Bootstrap Model More CSS Classes
+Bootstrap Tab View
+Bootstrap Navbar
+Bootstrap Nabvar Backhround Colors And Theme
+Bootstrap Navbar Positioning
+Bootstrap Aspect Ratio
+Bootstrap Text Truncation
+Utilities Background Color Text Color
+Utilities text opacity shadow display
+Utility Opacity and z-index
+Utilities Overflow margin padding visibility
+Utilites Float Radius Vertical Alignment
+JS Introduction
+Hello javaScript
+JS Comment
+JS Variable
+Non Primative Data Type
+Primative Data Type
+Introduce With Operator
+If Else Statement
+Switch Case
+Basic for loop
+Loop break continue
+While Loop
+do while loop
+Javascript function
+Function Parameter
+Function Return
+Javascript Object
+JavaScript Array
+For Loop Over Array
+For In Loop Over Array
+For In Loop Over Object
+Array Concate And Array Form
+Array Filter
+Array Find Find Indx
+Array ForEach Method
+Array Includes And IndexOf
+Array Pop Push Reverse
+Array Slice And Sort
+Array splice
+String Methods
+String Methods
+String Methods
+JavaScript Date Object
+JavaScript Math Object
+JavaScript Numbers
+JS Window Object
+JS Navigator Object
+Js Geolocation
+Js common events
+JS Common Events
+Introduction to DOM
+Finding Elements By DOM
+HTML DOM Document
+HTML DOM Document
+JS DOM Working With Form Input
+DOM Manupulate CSS Class
+Create Element Append Element
+DOM Change Attribute Value
+DOM Query Selector
+Ajax Introduction
+Ajax Practice Introduction
+Ajax Get Request In Details
+Ajax Post Request In Details
+Ajax Post Request in details
+What is software engineering
+Importance of software engineering
+Requirement Engineering
+Requirement Engineering
+Software Development Lifecycle
+Waterfal Model
+Agile Model
+RAD Model
+Incremental Model
+Big Bang Model
+Project Managment
+Project Manager
+Project Planning
+Risk Managment
+Project Sheduling
+ERD
+Software Design
+Coding
+Software Quality Assurance
+Software Maintenance
+Meet Laravel
+Understand Laravel Structure
+Understand Laravel Structure
+Understand Laravel Structure
+Laravel Artisan Commands
+Laravel Artisan Commands
+Laravel Artisan Commands
+Laravel Artisan Commands
+Start Laravel Routing
+Start Routing With Postman
+Server-Side Client-Side
+Request Response Model
+Routing And Controller Concept
+Middleware Concept
+Introducing JSON
+Understanding JSON Structure
+Best practices of JSON
+Understanding HTTP Client
+HTTP Request Segments
+Compare Get and Post
+When use GET When POST
+Request Rate Limiting
+Response Segments
+Response Status Code
+URI Naming Best Practices
+HTTP Cookies in details
+Uses of HTTP Cookies
+Response Best Practices-1
+Response Best Practices-2
+Request Best Practices
+Controller Best Practices
+Midlleware Best Practices
+Encryption Decryption Process
+JSON Web Token JWT Concept
+JWT Strcuture
+JWT Encryotion Decryption Simulate
+CSR SSR Concepts
+Benefits of SSR
+Opposit of SSR
+Benefits of CSR
+Opposit of CSR
+CSR SSR Optimzied Solution
+Simple Request
+Working With Request Parameter
+Working With Request JSON Body
+Working With Request Header
+Working With Request Header Body Params
+Working With Form Data
+Working With File Upload
+IP Address And Content
+Working With Request Cookie
+Different Response Format
+Different Response JSON
+Redirect Response
+Binary And File Download Response
+Cookie Response
+Response Header
+Response View
+Laravel Log Feature
+Laravel Session-1
+Laravel Session-2
+Understanding Structure
+Request Verification
+Request Redirect
+Apply For Route And Route Group
+Apply For Whole Application
+Manupulate Request Header
+Rate Limiting
+Controller Concept In Details
+Single Action Controller
+Resource Controller
+Working With Constructor
+Understanding Blade Template Engine
+Pass Data From Controller
+if else
+switch case
+For Loop
+For Each Loop
+Including Asssets
+Including Subview
+Laravel One Page Templete Project-1
+Laravel One Page Templete Project-2
+Laravel One Page Templete Project-3
+Exploring Migrations
+File Naming Conventions
+Migration Structure
+Exploring Column Types
+Working With Column Types-1
+Working With Column Types-2
+Working With Column Types-3
+Exploring Column Attributes
+Working With Column Attributes-1
+Working With Column Attributes-2
+Rename and Drop Table
+Adding new column to table
+Rename And Drop Column From Table
+Relationship sign
+Understanding Relationship Constraint
+Database Project Overview
+Create Migration Files
+Users Brands Categories
+Profiles
+Products
+Product Details
+Product Sliders
+Product Reviews
+Product Wish And Carts
+Run Migration
+Discover Database ERD Diagram
+Meet Query Builder
+Meet Query Builder
+Retriving All Rows
+Retriving All Rows
+Retriving Single Rows
+Retriving Single Rows
+Aggregates
+Aggregates
+Select Clauses
+Select Clauses
+Understading JOIN
+Understading JOIN
+Inner Join
+Inner Join
+Left Right
+Left Right
+Cross Join
+Cross Join
+Advanced Join Clauses-1
+Advanced Join Clauses-1
+Advanced Join Clauses-2
+Advanced Join Clauses-2
+Unions
+Unions
+Basic Where Clauses
+Basic Where Clauses
+Advance Where Clauses-1
+Advance Where Clauses-1
+Advance Where Clauses-2
+Advance Where Clauses-2
+Advance Where Clauses-3
+Advance Where Clauses-3
+Advance Where Clauses-4
+Advance Where Clauses-4
+order By Asc Desc
+order By Asc Desc
+Latest Oldest Skip Take
+Latest Oldest Skip Take
+Group By And Having
+Group By And Having
+Insert Query
+Insert Query
+Insert Query
+Insert Query
+Update Query
+Update Query
+Update or Insert
+Update or Insert
+Increment Decrement
+Increment Decrement
+Delete Query
+Delete Query
+Meet Eloquent ORM
+Model Naming Conventions
+Meet Our Demo Database
+Insert
+Insert
+Update
+Why Fillable Properties
+Update or Create
+Delete
+Increment Decrement
+Retriving All Rows
+Retriving List Of Column
+Aggregation
+Select Clause
+Where Clause
+Ordering Grouping Limiting
+Pagination
+Understanding relationship
+One to one relationship
+One to many relationship
+Many to many relationship
+Beginneer Project Started
+Project Idea And Requirements
+Project UI UX Completion
+Project Database Design
+Project Technology Selection
+Project Development Steps
+Step 01 Migration And Database
+Step 02 Taking Dummay Data
+Step 03 Controller Methods Routes
+Step 04 Query Writings
+Step 05 Back End Testing
+Step 6 Blade Component Design
+Step 7 HTML to Blade Conversion
+Step 8 Ajax Call
+Step 8 Ajax Call
+Step 8 Ajax Call
+Step 8 Ajax Call
+Step 8 Ajax Call
+Step 9 Seo Properties
+Introduction
+Registration
+Registration
+JWT For Auth
+User Login And Issue JWT Token
+Working With OTP Email-1
+Working With OTP Email-2
+Working With OTP Email-3
+Verify OTP And Issue JWT
+Working With Token Verification Middleware And Password Reset
+Completing Password Reset
+Front End Explain Front End Assets
+Front End User Login
+Front End User Registration
+Front End Send OTP
+Front End Verify OTP
+Front End Reset password
+User Logout And Take Agile Advantages
+Auth Restriction In Page And End Point
+Working With User Profile
+Working With User Profile
+Working With User Profile
+Working With Category Back End
+Test Category API In Postman
+Set Up JavaScript Datatable For Category
+Fix the Part 25 Error
+Working With Category Create And Refresh List
+Understanding id pulling from specific row object
+Working With Delete In Smart Way
+Update Category By Getting Details
+Customer Module As Previous
+Product Module Back End
+Product Create Back End
+Product Listing Delete Details Back End
+Product Update With And Without Image
+Product Front End List And Delete
+Product Front End Create Product
+Product Front End Update Produc
+Invoice Database Design
+Invoice Back End
+Test Invoice Back-End
+Working With Invoice Front End
+Working With Invoice Front End
+Working With Invoice List And Print
+Working With Dashboard Summary
+Report generation
+Project Requirement And Planning
+2 Project Database Desing
+Payment Getaway Strategy Overview
+[Back-End] Back End Features Going To Develop
+[Back-End] Create Migration Files For Database
+ [Back-End] Create Models And Define Relationship
+ [Back-End] Brand Category Product Policy Controller
+[Back-End] User OTP Send Verify Logout
+[Back-End] User Profile Create Read Update
+ [Back-End] Product Review Creation
+[Back End] Managing Product Wish List
+[Back End] Managing Product Cart List
+[Back End] Managing Invoice And Initiate Payment sslcommerz
+[Back-End] Invoice List And Product
+ [Back End] Managing Payment Success Fail Cancel IPN
+Start With Front End Template
+ Home Page Components
+Catgeories Brands Menu
+Home Slider
+Popular Top New Special Trending Products
+Managing Data Loading Sequence In Home Page
+Managing Full Screen Loader
+Product List By Category.
+Product List By Brands.
+Site Policies Page
+ Product Details
+Redirect When AddTo Cart Or Add Wish List
+Login Verify Request
+Manage Login Redirect
+Show Loader At Wish And Cart Process
+Show WIsh List
+Remove Wish List
+Show Cart List And Total & Remove Item s
+Login Logout View Depending On Cookies
+Calling Invoice API And Manage Payment
+Managing Profile And Order History
+Checking Back End Features
+Working With Review
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+ Link
+HTML, CSS, Bootstrap, JavaScript
+Importance of software engineering, Requirement Engineering, Software Development LifecycleWaterfal Model , Agile Model,  RAD Model , Incremental Mode, Big Bang ModelProject Management, Planning,Schedulin্‌g, ERDSoftware Design, Coding, Software Quality Assurance, Software Maintenance
+Laravel Structure, Artisan Commands, Laravel Routing Structure  ,Start Using Postman Server-Side Simulation[Terminology] Request-Response Model, Server Side Client Side ,Deep inside Routing Middleware, Controller Flow in Details[Terminology] JSON Structure & Best Practices ,Middleware, Controller, Request, Response Best Practices, Understanding HTTP Client In details[Terminology] URI Naming Best Practices, HTTP Cookies in details, Encryption Decryption Process[Terminology] JWT Structure & Concept , JWT Encryption Decryption Simulate , CSR SSR Concepts & Best Practices
+Request, Parameter, JSON Body, Request Header Working With Form Data & File Upload Request IP Address And Content ,Working With Request CookieDifferent Response Format, Response JSONRedirect Response, Binary And File Download Response Cookie Response, Response Header, Response View
+Understanding Blade Template Engine & Attributes  Blade if-else, switch-case, loop, master layout, extend, includeBlade yield, content, Blade data passing, Asset binding, Including blade subview Laravel Blade Landing Page Project
+Understanding Blade Template Engine & Attributes  Blade if-else, switch-case, loop, master layout, extend, includeBlade yield, content, Blade data passing, Asset binding, Including blade subview Laravel Blade Landing Page Project
+Exploring Migrations, Naming conventions , Migration Structure, Database columns types in migrationWorking with different columns types and attributesTable Column Modification Add, Rename, Drop , Details on Database RelationshipOne-to-One (1:1), One-to-Many (1:N),Only-One-to-Many (1:N), Many-to-Many (N:M), Self-Referencing RelationshipDetails on ERD Diagram,  Details on Relationship Constraint - RESTRICT, CASCADEE-commerce Database Project
+Why and how Query Builder works , Retrieving All Rows, Single Rows, AggregatesSelect Clauses, Where Clauses, Advance Clauses, Inner Join, Left Right, Right JoinCross Join Advanced Join ClausesUnions, Order, Latest Oldest, Skip, Take, LimitGroup By And Having , Insert, Update, Detele, UpsertPagination, Custom Pagination
+Why and how Eloquent ORM works , Model Naming Conventions  Insert, Update, Delete, Fillable PropertiesIncrement Decrement, Retrieving Rows ColumnsAggregation, Select Clause, Where Clause, Advance ClauseOrdering Grouping Limiting , Pagination, Custom Pagination ,  One-to-One (1:1), One-to-Many (1:N),Only-One-to-Many (1:N), Many-to-Many (N:M)Self-Referencing Relationship ,Details On Database & Model Desing
+Problem, Software development flow, development lifecycle, requirementsLaravel back end developmentJavaScript Ajax front end development
+Working with Login, Registration, Forget Password, Reset Password, Profile managementWorking with Category, Product, Invoice , Report ,Dashboard Summary Front End
+Working with Login, Registration, Forget Password, Reset Password, Profile managementWorking with Category, Product, Invoice , Report ,Dashboard Summary Front End
+Product Brand, Category, Latest Product , Popular product, Featured, Slider, Product Details User Login Using OTP & Profile, Product Cart List management, Wish List managementProduct User Review & Rating SystemCart Checkout using SSL Commerz payment,Order history & Invoice generation
+Product Brand, Category, Latest Product , Popular product, Featured, Slider, Product Details User Login Using OTP & Profile, Product Cart List management, Wish List managementProduct User Review & Rating SystemCart Checkout using SSL Commerz payment,Order history & Invoice generation"
+

@@ -14,7 +14,7 @@ class ProductSeeder extends Seeder
      */
     public function run(): void
     {
-        $products = Product::factory()->count(50)->create();
+        $products = Product::factory()->count(100)->create();
         try {
             $products->each(function (Product $product) {
                 $keywords = fake()->words(5);
