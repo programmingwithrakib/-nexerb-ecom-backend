@@ -1,9 +1,14 @@
-লারাভেল টপিক লিস্ট
+----------------------------------লারাভেল টপিক লিস্ট-------------------------------------
 
 - লারাভেল আরকিটেকচার এন্ড ওয়েব টারমিনলজি
     লারাভেল পরিচিতি
-    লারাভেল স্ট্রাকচার বোঝা
-    লারাভেল আর্টিসান কমান্ডস
+    লারাভেল স্ট্রাকচার বোঝা - ১
+    লারাভেল স্ট্রাকচার বোঝা - ২
+    লারাভেল স্ট্রাকচার বোঝা - ৩
+    লারাভেল আর্টিসান কমান্ডস - ১
+    লারাভেল আর্টিসান কমান্ডস - ২
+    লারাভেল আর্টিসান কমান্ডস - ৩
+    লারাভেল আর্টিসান কমান্ডস - ৪
     লারাভেল রাউটিং
     পোস্টম্যান দিয়ে রাউটিং পরীক্ষা
     সার্ভার-সাইড এবং ক্লায়েন্ট-সাইড
@@ -11,7 +16,7 @@
     রাউটিং এবং কন্ট্রোলার ধারণা
     মিডলওয়্যার ধারণা
     JSON পরিচিতি
-    JSON স্ট্রাকচার বোঝা
+    JSON স্ট্রাকচার
     JSON-এর সেরা ব্যবহারবিধি
     HTTP ক্লায়েন্টের কার্যপ্রণালী
     HTTP রিকোয়েস্ট সেগমেন্ট
@@ -23,11 +28,11 @@
     URI নেমিং-এর সেরা পদ্ধতি
     HTTP কুকিজের বিস্তারিত
     HTTP কুকিজের ব্যবহার
-    রেসপন্সের সেরা পদ্ধতি-১
-    রেসপন্সের সেরা পদ্ধতি-২
-    রিকোয়েস্টের সেরা পদ্ধতি
-    কন্ট্রোলারের সেরা পদ্ধতি
-    মিডলওয়্যারের সেরা পদ্ধতি
+    রেসপন্সের বেস্ট প্রেকটিস-১
+    রেসপন্সের বেস্ট প্রেকটিস-২
+    রিকোয়েস্টের বেস্ট প্রেকটিস
+    কন্ট্রোলারের বেস্ট প্রেকটিস
+    মিডলওয়্যারের বেস্ট প্রেকটিস
     এনক্রিপশন এবং ডিক্রিপশন প্রক্রিয়া
     JSON Web Token (JWT) ধারণা
     JWT স্ট্রাকচার
@@ -86,485 +91,693 @@
     একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ২
     একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ৩
 
+- লারাভেল মাইগ্রেশন এবং ডাটাবেস ডিজাইন
+    মাইগ্রেশন ব্যবহারের প্রক্রিয়া
+    মাইগ্রেশন ফাইলের নামকরণ পদ্ধতি
+    মাইগ্রেশন স্ট্রাকচার
+    কলাম টাইপ সম্পর্কে ধারণা
+    কলাম টাইপস নিয়ে কাজ (পর্ব-১)
+    কলাম টাইপস নিয়ে কাজ (পর্ব-২)
+    কলাম টাইপস নিয়ে কাজ (পর্ব-৩)
+    কলামের অ্যাট্রিবিউট সম্পর্কে ধারণা
+    কলাম অ্যাট্রিবিউটস নিয়ে কাজ (পর্ব-১)
+    কলাম অ্যাট্রিবিউটস নিয়ে কাজ (পর্ব-২)
+    টেবিলের নাম পরিবর্তন এবং মুছে ফেলা
+    টেবিলে নতুন কলাম যুক্ত করা
+    কলামের নাম পরিবর্তন এবং মুছে ফেলা
+    ডেটাবেসের মধ্যে রিলেশনশিপ
+    রিলেশনশিপ কন্সট্রেইন্ট সমন্ধে ধারণা
+    ডেটাবেস প্রজেক্ট ওভারভিউ
+    মাইগ্রেশন ফাইল তৈরি করা
+    ইউজার্স, ব্র্যান্ডস, ক্যাটেগরিস
+    প্রোফাইলস টেবিল
+    প্রোডাক্টস টেবিল
+    প্রোডাক্ট ডিটেইলস টেবিল
+    প্রোডাক্ট স্লাইডারস টেবিল
+    প্রোডাক্ট রিভিউস টেবিল
+    প্রোডাক্ট উইশ এবং কার্টস টেবিল
+    মাইগ্রেশন রান করা
+    ডেটাবেস ERD ডায়াগ্রাম তৈরি
+
+- লারাভেল কুয়েরি বিল্ডার্স বিস্তারিত
+    কোয়েরি বিল্ডার পরিচিতি - ১
+    কোয়েরি বিল্ডার পরিচিতি - ২
+    টেবিল এর সমস্ত রো এর ডাটা সংগ্রহ - ১
+    টেবিল এর সমস্ত রো এর ডাটা সংগ্রহ - ২
+    টেবিল থেকে নির্দিষ্ট একটি ডাটা সংগ্রহ - ১
+    টেবিল থেকে নির্দিষ্ট একটি ডাটা সংগ্রহ - ১
+    এগ্রিগেট ফাংশন ব্যবহার - ১
+    এগ্রিগেট ফাংশন ব্যবহার - ২
+    সিলেক্ট ক্লজ এর  ব্যবহার - ১
+    সিলেক্ট ক্লজ এর  ব্যবহার - ২
+    জয়েন সম্পর্কে ধারণা - ১
+    জয়েন সম্পর্কে ধারণা - ২
+    ইনার জয়েন এর ব্যবহার - ১
+    ইনার জয়েন এর ব্যবহার - ২
+    লেফট এবং রাইট জয়েনের ব্যবহার - ১
+    লেফট এবং রাইট জয়েনের ব্যবহার - ২
+    ক্রস জয়েনের ব্যবহার - ১
+    ক্রস জয়েনের ব্যবহার - ২
+    এডভান্সড জয়েন ক্লজ - ১-১
+    এডভান্সড জয়েন ক্লজ - ১-২
+    এডভান্সড জয়েন ক্লজ - ২-১
+    এডভান্সড জয়েন ক্লজ - ২-২
+    ইউনিয়ন এর ব্যবহার - ১
+    ইউনিয়ন এর ব্যবহার - ২
+    বেসিক হোয়্যার(Where) ক্লজ ব্যবহার - ১
+    বেসিক হোয়্যার(Where) ক্লজ ব্যবহার - ২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ১-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ১-২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ২-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ২-২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৩-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৩-২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৪-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৪-২
+    এসেন্ডিং এবং ডিসেন্ডিং অর্ডার - ১
+    এসেন্ডিং এবং ডিসেন্ডিং অর্ডার - ২
+    Latest Oldest Skip Take - ১
+    Latest Oldest Skip Take - ২
+    গ্রুপ বাই এবং হ্যাভিং ব্যবহার - ১
+    গ্রুপ বাই এবং হ্যাভিং ব্যবহার - ২
+    ইনসার্ট কোয়েরি ব্যবহার - ১
+    ইনসার্ট কোয়েরি ব্যবহার - ২
+    ইনসার্ট কোয়েরি ব্যবহার - ৩
+    ইনসার্ট কোয়েরি ব্যবহার - ৪
+    আপডেট কোয়েরি ব্যবহার - ১
+    আপডেট কোয়েরি ব্যবহার - ২
+    আপডেট কোয়েরি ব্যবহার - ৩
+    আপডেট কোয়েরি ব্যবহার - ৪
+    ইনক্রিমেন্ট ও ডিক্রিমেন্ট অপারেশন - ১
+    ইনক্রিমেন্ট ও ডিক্রিমেন্ট অপারেশন - ২
+    ডিলিট কোয়েরি ব্যবহার - ১
+    ডিলিট কোয়েরি ব্যবহার - ২
+
+- লারাভেল ইলুকুয়েন্ট ও-আর-এম
+    ইলুকুয়েন্ট ও-আর-এম পরিচিতি
+    মডেল নামকরণের নিয়মাবলী
+    ডেমো ডাটাবেসের সাথে পরিচিত
+    ডাটা ইনসার্ট - ১
+    ডাটা ইনসার্ট  - ২
+    ডাটা আপডেট করা
+    ফিলেবল প্রপার্টি কেন প্রয়োজন
+    আপডেট অথবা ক্রিয়েট
+    ডাটা ডিলিট করা
+    ইনক্রিমেন্ট/ডিক্রিমেন্ট এর ব্যবহার
+    মডেল এর সমস্ত ডাটা সংগ্রহ করা
+    নির্দিষ্ট কলাম এর ডাটা সংগ্রহ করা
+    অ্যাগ্রিগেশন এর ব্যবহার
+    সিলেক্ট মেথড এর ব্যবহার
+    হোয়্যার মেথড এর ব্যবহার
+    অর্ডারিং, গ্রুপিং, এবং লিমিটিং
+    পেজিনেশন এর ব্যবহার
+    রিলেশনশিপ নিয়ে আলোচনা
+    ওয়ান-টু-ওয়ান রিলেশনশিপ
+    ওয়ান-টু-ম্যানি রিলেশনশিপ
+    মেনি-টু-মেনি রিলেশনশিপ
+
+
+- পোর্টফোলিও প্রজেক্ট
+    প্রজেক্ট ওভারভিও
+    প্রজেক্ট এর আইডিয়া ও চাহিদাসমূহ
+    প্রজেক্ট এর জন্য UI/UX করা
+    প্রজেক্টের জন্য ডাটাবেস ডিজাইন
+    প্রজেক্টের জন্য টেকনোলজি নির্বাচন
+    প্রজেক্ট এর ডেভেলপমেন্ট ধাপসমূহ
+    ধাপ ১: মাইগ্রেশন এবং ডাটাবেস প্রস্তুত করা
+    ধাপ ২: ডামি ডাটা তৈরি করা
+    ধাপ ৩: কন্ট্রোলার মেথড এবং রাউট তৈরি
+    ধাপ ৪: কোয়েরি লেখা
+    ধাপ ৫: ব্যাকএন্ড টেস্টিং
+    ধাপ ৬: ব্লেড কম্পোনেন্ট ডিজাইন
+    ধাপ ৭: HTML থেকে ব্লেড টেমপ্লেট এ রূপান্তর
+    ধাপ ৮: এজ্যাক্স কল করা - ১
+    ধাপ ৮: এজ্যাক্স কল করা - ২
+    ধাপ ৮: এজ্যাক্স কল করা - ৩
+    ধাপ ৮: এজ্যাক্স কল করা - ৪
+    ধাপ ৮: এজ্যাক্স কল করা - ৫
+    ধাপ ৯: এসইও প্রপার্টি সংযোজন
+
+
+- লারাভেল ইনভেন্টরি প্রজেক্ট
+    প্রজেক্ট পরিচিতি
+    রেজিস্ট্রেশন - ১
+    রেজিস্ট্রেশন - ২
+    JWT দ্বারা অথেনটিকেশন
+    ব্যবহারকারী লগইন এবং JWT টোকেন ইস্যু করা
+    ওটিপি ইমেইল নিয়ে কাজ - ১
+    ওটিপি ইমেইল নিয়ে কাজ - ২
+    ওটিপি ইমেইল নিয়ে কাজ - ৩
+    ওটিপি যাচাই এবং JWT ইস্যু করা
+    টোকেন যাচাইকরণ মিডলওয়্যার এবং পাসওয়ার্ড রিসেট করা
+    পাসওয়ার্ড রিসেট সম্পন্ন করা
+    ফ্রন্টএন্ড এসেট বিস্তারিত
+    ফ্রন্টএন্ড এ  ইউজার লগগিন করা
+    ফ্রন্টএন্ড এ  ইউজার রেজিস্ট্রেশন করা
+    ফ্রন্ডএন্ড থেকে ওটিপি প্রেরন
+    ফ্রন্ডএন্ড থেকে ওটিপি ভেরিফাই
+    ফ্রন্টএন্ড থেকে পাসওয়ার্ড রিসেট করা
+    ইউজার লগআউট এবং অ্যাজাইল পদ্ধতির সুবিধা গ্রহণ
+    পেজ এবং এন্ডপয়েন্টে অথ রেস্ট্রিকশন
+    ইউজার প্রোফাইল নিয়ে কাজ - ১
+    ইউজার প্রোফাইল নিয়ে কাজ - ২
+    ইউজার প্রোফাইল নিয়ে কাজ - ৩
+    ব্যাকএন্ডে ক্যাটেগরি নিয়ে কাজ
+    পোস্টম্যান দিয়ে ক্যাটেগরি API টেস্ট করা
+    ক্যাটেগরির জন্য জাভাস্ক্রিপ্ট ডাটাটেবল সেটআপ
+    পার্ট ২৫-এর ত্রুটি সংশোধন
+    ক্যাটেগরি তৈরি এবং লিস্ট রিফ্রেশ করা
+    নির্দিষ্ট রো অবজেক্ট থেকে আইডি পুলিং
+    স্মার্ট উপায়ে ডাটা মুছে ফেলার পদ্ধতি
+    বিস্তারিত তথ্য নিয়ে ক্যাটেগরি আপডেট করা
+    কাস্টমার মডিউল (পূর্বের মত করে)
+    প্রোডাক্ট মডিউল (ব্যাকএন্ড)
+    প্রোডাক্ট তৈরি (ব্যাকএন্ড)
+    প্রোডাক্ট এর তালিকা, মুছে ফেলা এবং বিস্তারিত  (ব্যাকএন্ড)
+    ইমেজসহ বা ইমেজ ছাড়া প্রোডাক্ট আপডেট করা
+    প্রোডাক্ট তালিকা এবং মুছে ফেলা (ফ্রন্টএন্ড)
+    প্রোডাক্ট তৈরি (ফ্রন্টএন্ড)
+    প্রোডাক্ট আপডেট করা (ফ্রন্টএন্ড)
+    ইনভয়েস ডাটাবেস ডিজাইন
+    ইনভয়েস (ব্যাকএন্ড)
+    পোস্টম্যান এ ইনভয়েস ব্যাকএন্ড টেস্ট
+    ইনভয়েস নিয়ে ফ্রন্টএন্ড এ কাজ - ১
+    ইনভয়েস নিয়ে ফ্রন্টএন্ড এ কাজ - ২
+    ইনভয়েস লিস্ট দেখানো এবং প্রিন্ট করা
+    ড্যাশবোর্ড সামারি
+    রিপোর্ট জেনারেশন
+
+
+- লারাভেল ই-কমার্স প্রজেক্ট
+    প্রজেক্টের চাহিদা বিশ্লেষন এবং পরিকল্পনা
+    প্রজেক্ট এর জন্য ডাটাবেস ডিজাইন
+    পেমেন্ট গেটওয়ে স্ট্র্যাটেজি ওভারভিউ
+    ব্যাকএন্ড ফিচার ডেভেলপমেন্ট নিয়ে পরিকল্পনা
+    ডাটাবেসের জন্য মাইগ্রেশন ফাইল তৈরি করা
+    মডেল তৈরি এবং এর জন্য রিলেশন তৈরি
+    ক্যাটেগরি, প্রোডাক্ট, পলিসি এবং কন্ট্রোলার তৈরি করা (ব্যাকএন্ড)
+    ইউজারকে OTP পাঠানো, ভেরিফাই এবং লগআউট করা (ব্যাকএন্ড)
+    ইউজার প্রোফাইল তৈরি, পড়া, আপডেট করা (ব্যাকএন্ড)
+    প্রোডাক্ট রিভিউ তৈরি করা (ব্যাকএন্ড)
+    প্রোডাক্ট উইশলিস্ট ম্যানেজ করা (ব্যাকএন্ড)
+    প্রোডাক্ট কার্ট ম্যানেজ করা (ব্যাকএন্ড)
+    ইনভয়েস ম্যানেজ এবং SSLCommerz এর মাধ্যমে পেমেন্ট করা (ব্যাকএন্ড)
+    ইনভয়েস লিস্ট এবং প্রোডাক্ট ম্যানেজ করা
+    পেমেন্ট সাকসেস, ফেল, ক্যানসেল, এবং IPN ম্যানেজ করা
+    ফ্রন্টএন্ড টেমপ্লেট দিয়ে কাজ শুরু
+    হোমপেজ কম্পোনেন্ট ডিজাইন
+    ক্যাটেগরি, ব্র্যান্ড মেনু ডিজাইন করা
+    হোম স্লাইডার তৈরি করা
+    পপুলার, টপ, নতুন, স্পেশিয়াল, ট্রেন্ডিং প্রডাক্ট
+    হোমপেজে ডাটা লোডিং সিকোয়েন্স ম্যানেজ করা
+    ফুল-স্ক্রিন লোডার ম্যানেজ করা
+    ক্যাটেগরি অনুসারে প্রোডাক্ট তালিকা দেখানো
+    ব্র্যান্ড অনুসারে প্রোডাক্ট তালিকা দেখানো
+    সাইট পলিসি পেজ তৈরি করা
+    প্রোডাক্টের বিস্তারিত দেখানো
+    কার্ট বা উইশলিস্টে যুক্ত করার পরে রিডাইরেক্ট করা
+    লগইন যাচাইয়ের জন্য রিকোয়েস্ট
+    লগইন রিডাইরেক্ট ম্যানেজ করা
+    উইশলিস্ট এবং কার্ট প্রসেসে লোডার দেখানো
+    উইশলিস্ট দেখানো
+    উইশলিস্ট থেকে আইটেম রিমুভ করা
+    কার্ট তালিকা দেখানো, মোট যোগফল এবং আইটেম রিমুভ করা
+    লগইন এবং লগআউট ভিউ কুকির উপর নির্ভর করে পরিচালনা করা
+    ইনভয়েস API কল এবং পেমেন্ট পরিচালনা করা
+    প্রোফাইল এবং অর্ডার হিস্টরি ম্যানেজ করা
+    ব্যাকএন্ড ফিচার যাচাই করা
+    রিভিউ নিয়ে কাজ করা
+
+--------------------------------------------------------------------------------------------------------
+- রোসোর্স এর ফাইল এর নাম সমূহ
+    বিগিনার পার্ট স্লাইডসমূহ
+    সফটওয়্যার ইঞ্জিনিয়ারিং-এর ভিত্তি স্লাইডসমূহ
+    লারাভেল আর্কিটেকচার এবং ওয়েব টার্মিনোলজি স্লাইডসমূহ
+    লারাভেল রিকোয়েস্ট-রেসপন্স মডেল স্লাইডসমূহ
+    মিডলওয়্যার, লগিং, সেশন এবং কন্ট্রোলার স্লাইডসমুহ
+    লারাভেল ব্লেড টেমপ্লেট স্লাইডসমুহ এবং প্রজেক্ট সোর্স কোড
+    মাইগ্রেশন এবং ডাটাবেস ডিজাইন স্লাইডসমুহ এবং প্রজেক্ট সোর্স কোড
+    কোয়েরি বিল্ডার বিস্তারিত স্লাইডসমুহ এবং ডেমো ডাটাবেস সোর্স কোড
+    ইলোকুয়েন্ট ORM স্লাইডস এবং প্র্যাকটিস সোর্স কোড
+    MR-X পোর্টফোলিও প্রজেক্ট স্লাইডস এবং প্রজেক্ট সোর্স কোড
+    লারাভেল ইনভেন্টরি প্রজেক্ট স্লাইডস এবং প্রজেক্ট সোর্স কোড
+    ই-কমার্স প্রজেক্ট স্লাইডস এবং প্রজেক্ট সোর্স কোড
+
+
+----------------------------- FAQ ----------------------------------------
+
+- লারাভেল কী?
+    লারাভেল একটি ওপেন-সোর্স PHP ফ্রেমওয়ার্ক যা ওয়েব অ্যাপ্লিকেশন ডেভেলপমেন্টের জন্য ব্যবহার করা হয়। এটি MVC (Model-View-Controller) আর্কিটেকচার ফলো করে।
+
+- কেন লারাভেল ব্যবহার করা হয়?
+    লারাভেল ডেভেলপমেন্টে গতি, নিরাপত্তা, এবং কোডের পরিচ্ছন্নতা নিশ্চিত করে। এতে বিল্ট-ইন টুল যেমন রাউটিং, অথেনটিকেশন, এবং ডাটাবেস মাইগ্রেশন সহজেই ব্যবহৃত হয়।
+
+- লারাভেলের প্রধান ফিচার কী কী?
+    MVC আর্কিটেকচার
+    ইলোকুয়েন্ট ORM
+    রাউটিং
+    অথেনটিকেশন এবং অথরাইজেশন
+    ডাটাবেস মাইগ্রেশন
+    টাস্ক স্কেডিউলিং
+    টেমপ্লেট ইঞ্জিন (Blade)
+
+- এই কোর্সটি কাদের জন্য?
+    এই কোর্সটি তাদের জন্য যারা PHP সম্পর্কে প্রাথমিক ধারণা রাখে এবং লারাভেল ব্যবহার করে প্রফেশনাল ওয়েব ডেভেলপমেন্ট শিখতে চায়।
+
+- লারাভেল শেখার জন্য PHP জানা কি বাধ্যতামূলক?
+    হ্যাঁ, PHP-এর মৌলিক ধারণা থাকা গুরুত্বপূর্ণ কারণ লারাভেল PHP ফ্রেমওয়ার্কের উপর ভিত্তি করে তৈরি।
+
+- কোর্সটি কত দিনের?
+    এই কোর্সটি ৫-৬ মাসের মধ্যে সম্পন্ন করা যায়, তবে শিক্ষার্থীরা তাদের নিজস্ব গতিতে শিখতে পারবে।
+
+- এই কোর্সটি কি অনলাইন না অফলাইন?
+    কোর্সটি সম্পূর্ণ অনলাইন, এবং শিক্ষার্থীরা যেকোনো সময়, যেকোনো জায়গা থেকে অ্যাক্সেস করতে পারবে।
+
+- কোর্সে কি কি বিষয় শেখানো হবে?
+    লারাভেল আর্কিটেকচার
+    MVC প্যাটার্ন
+    রাউটিং, Middleware
+    ডাটাবেস মাইগ্রেশন এবং Eloquent ORM
+    Blade টেমপ্লেট ইঞ্জিন
+    API ডেভেলপমেন্ট
+    প্রজেক্ট ডেভেলপমেন্ট (ই-কমার্স বা ইনভেন্টরি সিস্টেম)
+
+- কি ধরণের প্রজেক্ট তৈরি শেখানো হবে?
+    একটি সম্পূর্ণ ডায়নামিক ই-কমার্স ওয়েবসাইট বা একটি ইনভেন্টরি ম্যানেজমেন্ট সিস্টেম তৈরি শেখানো হবে।
+
+- এই কোর্সের মাধ্যমে চাকরির জন্য প্রস্তুতি নেওয়া যাবে?
+    হ্যাঁ, এই কোর্সে শেখানো হবে কিভাবে লারাভেল ব্যবহার করে প্রফেশনাল ওয়েব অ্যাপ্লিকেশন তৈরি করা যায়, যা আপনাকে জব মার্কেটে প্রতিযোগিতামূলক অবস্থানে নিয়ে যাবে।
+
+- কোর্সটি কি লাইভ ক্লাস, নাকি রেকর্ড করা ভিডিও?
+    কোর্সটি রেকর্ড করা ভিডিও লেকচারের মাধ্যমে পরিচালিত হয়, এবং শিক্ষার্থীরা যেকোনো সময় সেগুলি দেখতে পারবে।
+
+- কোর্স চলাকালীন সমস্যার সমাধান কিভাবে পাবো?
+    কোর্সে একটি সাপোর্ট সিস্টেম থাকবে যেখানে শিক্ষার্থীরা প্রশ্ন করতে পারবে এবং টিউটর বা সাপোর্ট টিম দ্রুত উত্তর দেবে।
+
+- কোর্স অ্যাক্সেস কি আজীবনের জন্য থাকবে?
+    হ্যাঁ, একবার কোর্স কিনে নিলে আপনি আজীবন এটি অ্যাক্সেস করতে পারবেন।
+
+- কোর্সে কি লারাভেলের আপডেটেড ভার্সন শেখানো হবে?
+     হ্যাঁ, কোর্সটি লারাভেলের সর্বশেষ স্থিতিশীল সংস্করণের উপর ভিত্তি করে তৈরি।
+
+- আমি যদি কোর্সে লেট করে শুরু করি, তবে কি সমস্যা হবে?
+    না, আপনি যেকোনো সময় কোর্স শুরু করতে পারবেন এবং নিজের সময়মত শিখতে পারবেন।
+
+- আমি কি কোর্সের বিষয়বস্তু ডাউনলোড করতে পারবো?
+    ভিডিও লেকচার ডাউনলোড করার অনুমতি নেই, তবে আপনি প্ল্যাটফর্মে সেগুলি যেকোনো সময় দেখতে পারবেন।
+
+- কোর্স শেষ করার পরে কোন সাহায্য পাওয়া যাবে কি?
+    হ্যাঁ, কোর্স শেষে জব রিসোর্স, প্রজেক্ট গাইডলাইন, এবং কমিউনিটি সাপোর্ট প্রদান করা হবে।
+
+- আমি কি মোবাইল দিয়ে কোর্স করতে পারবো?
+    হ্যাঁ, আমাদের প্ল্যাটফর্ম মোবাইল ফ্রেন্ডলি, এবং মোবাইল দিয়েও কোর্স অ্যাক্সেস করা সম্ভব।
 
 
 
+------------------------------- Course Overview ------------------------------------
+
+- কোর্সের নাম:
+    Laravel Mastery: Build Professional Web Applications
+
+-কোর্সের ধরন:
+    অনলাইন ভিডিও কোর্স (প্রি-রেকর্ডেড ভিডিও এবং সাপোর্ট সেশন)
+
+- কোর্সের উদ্দেশ্য:
+    এই কোর্সের মূল উদ্দেশ্য হলো লারাভেলের মাধ্যমে প্রফেশনাল ওয়েব অ্যাপ্লিকেশন তৈরি করার দক্ষতা অর্জন করানো। কোর্সটি PHP ডেভেলপারদের জন্য ডিজাইন করা হয়েছে যারা তাদের দক্ষতা পরবর্তী স্তরে উন্নীত করতে চান।
+
+- কোর্সের মূল বৈশিষ্ট্য
+
+    লারাভেলের মূলনীতি:
+        MVC আর্কিটেকচার
+        লারাভেলের কাঠামো এবং এর গুরুত্ব
+
+    Laravel এর গুরুত্বপূর্ণ টুলস এবং ফিচার:
+        রাউটিং এবং কন্ট্রোলার
+        ডাটাবেস মাইগ্রেশন এবং সিডিং
+        Blade টেমপ্লেট ইঞ্জিন
+        Middleware এবং অথেনটিকেশন
+        ইলোকুয়েন্ট ORM
+
+    এন্টারপ্রাইজ লেভেলের প্রজেক্ট তৈরি করুন:
+        ই-কমার্স সাইট
+        ইনভেন্টরি ম্যানেজমেন্ট সিস্টেম
+
+    API ডেভেলপমেন্ট:
+        RESTful API তৈরি
+        JWT অথেনটিকেশন
+
+    ডিবাগিং এবং টেস্টিং:
+        Laravel Debugbar
+        ইউনিট এবং ফাংশনাল টেস্টিং
+
+
+- আপনি কী শিখবেন?
+    Laravel এর ভিত্তি এবং কিভাবে এটি কাজ করে।
+    প্রফেশনাল ওয়েব অ্যাপ্লিকেশন তৈরির প্রক্রিয়া।
+    ই-কমার্স বা ইনভেন্টরি ম্যানেজমেন্ট সিস্টেমের মতো বাস্তব প্রজেক্ট তৈরি করা।
+    ডাটাবেস ম্যানেজমেন্ট, API তৈরি, এবং সিকিউরিটি ইন্টিগ্রেশন।
+    কোড অপ্টিমাইজেশন এবং স্কেলেবল অ্যাপ্লিকেশন ডেভেলপমেন্ট।
+
+
+- কারা এই কোর্স করবেন?
+    যারা PHP এর মৌলিক জ্ঞান রাখেন।
+    যারা লারাভেল শিখে ফ্রিল্যান্সিং বা প্রফেশনাল ক্যারিয়ার গড়তে চান।
+    যারা পূর্ণাঙ্গ ওয়েব ডেভেলপমেন্টে দক্ষ হতে চান।
+
+- কোর্সের সুবিধা
+    আজীবন অ্যাক্সেস: একবার কিনলে আপনি এটি আজীবন দেখতে পারবেন।
+    সার্টিফিকেট প্রদান: কোর্স শেষে একটি প্রফেশনাল সার্টিফিকেট পাবেন।
+    সহায়তা: লাইভ সাপোর্ট সেশন এবং কমিউনিটি হেল্প।
+    ফ্রিল্যান্সিং গাইড: ফ্রিল্যান্সিং মার্কেটপ্লেসে কিভাবে কাজ শুরু করবেন তার পরামর্শ।
+
+
+এটি একটি পূর্ণাঙ্গ ওয়েব ডেভেলপমেন্ট কোর্স যা আপনাকে Laravel ফ্রেমওয়ার্কে দক্ষ করে তুলবে। আজই কোর্সে যোগ দিন এবং আপনার ক্যারিয়ার উন্নত করুন!
 
 
 
+------------------------------------------ Study Plan --------------------------------------
+
+- প্রথম সপ্তাহ
+        লারাভেল পরিচিতি
+        লারাভেল স্ট্রাকচার
+        লারাভেল আর্টিসান কমান্ডস
+        লারাভেল রাউটিং
+        পোস্টম্যান দিয়ে রাউটিং পরীক্ষা
+        সার্ভার-সাইড এবং ক্লায়েন্ট-সাইড
+        রিকোয়েস্ট এবং রেসপন্স মডেল
+        রাউটিং এবং কন্ট্রোলার ধারণা
+        মিডলওয়্যার ধারণা
+        JSON পরিচিতি
+        JSON স্ট্রাকচার
+        JSON-এর সেরা ব্যবহারবিধি
+
+- দ্বিতীয় সপ্তাহ
+        HTTP ক্লায়েন্টের কার্যপ্রণালী
+        HTTP রিকোয়েস্ট সেগমেন্ট
+        GET এবং POST তুলনা
+        কখন GET কখন POST ব্যবহার করবেন
+        রিকোয়েস্ট রেট লিমিটিং
+        রেসপন্স সেগমেন্ট
+        রেসপন্স স্ট্যাটাস কোড
+        URI নেমিং-এর সেরা পদ্ধতি
+        HTTP কুকিজের বিস্তারিত
+        HTTP কুকিজের ব্যবহার
+        রেসপন্সের বেস্ট প্রেকটিস-১
+        রেসপন্সের বেস্ট প্রেকটিস-২
+        রিকোয়েস্টের বেস্ট প্রেকটিস
+        কন্ট্রোলারের বেস্ট প্রেকটিস
+        মিডলওয়্যারের বেস্ট প্রেকটিস
+
+- তৃতীয় সপ্তাহ
+        এনক্রিপশন এবং ডিক্রিপশন প্রক্রিয়া
+        JSON Web Token (JWT) ধারণা
+        JWT স্ট্রাকচার
+        JWT এনক্রিপশন এবং ডিক্রিপশন সিমুলেট
+        CSR এবং SSR ধারণা
+        SSR-এর সুবিধা
+        SSR-এর অসুবিধা
+        CSR-এর সুবিধা
+        CSR-এর অসুবিধা
+        CSR এবং SSR-এর অপ্টিমাইজড সমাধান
+        রিকোয়েস্টের মৌলিক বিষয়
+        রিকোয়েস্ট প্যারামিটারের ব্যবহার
+        রিকোয়েস্ট JSON বডি নিয়ে কাজ
+        রিকোয়েস্ট হেডার নিয়ে কাজ
+        হেডার, বডি এবং প্যারামস
+
+- চতুর্থ সপ্তাহ
+        ফর্মের মাধ্যমে ডেটা প্রক্রিয়া
+        ফাইল আপলোডের পদ্ধতি
+        IP অ্যাড্রেস এবং কনটেন্ট ব্যবস্থাপনা
+        রিকোয়েস্ট কুকি এর কার্য পদ্ধতি
+        বিভিন্ন ধরণের রেসপন্স ফরম্যাট
+        JSON রেসপন্স ফরম্যাট
+        রিডাইরেক্ট রেসপন্স
+        বাইনারি এবং ফাইল ডাউনলোড রেসপন্স
+        রেসপন্সের মাধ্যমে কুকি সেট করা
+        রেসপন্স এ হেডার সেট করা
+        রেসপন্স এ HTML ডাটা প্রদর্শন
+
+- পঞ্চম সপ্তাহ
+    লারাভেল লগ ফিচার
+    লারাভেল সেশন (পর্ব-১)
+    লারাভেল সেশন (পর্ব-২)
+    লারাভেল স্ট্রাকচার পরিচিতি
+    রিকোয়েস্ট ভেরিফিকেশন
+    রিকোয়েস্ট রিডাইরেক্ট
+    রাউট এবং রাউট গ্রুপ এর কাজ
+    Apply For Whole Application
+    রিকোয়েস্ট হেডার ম্যানিপুলেশন
+    রেট লিমিটিং
+    বিস্তারিত কন্ট্রোলার ধারণা
+    সিঙ্গেল অ্যাকশন কন্ট্রোলার
+    রিসোর্স কন্ট্রোলার
+    কনস্ট্রাক্টরের সঙ্গে কাজ
+
+- ষষ্ঠ সপ্তাহ
+    ব্লেড টেমপ্লেট ইঞ্জিন পরিচিতি
+    কন্ট্রোলার থেকে ভিউতে ডেটা পাঠানো
+    if-else শর্তানুযায়ী কোড পরিচালনা
+    Switch Case নির্দিষ্ট শর্ত নির্বাচন করার পদ্ধতি
+    For লুপ (কোডের পূনরাবৃত্তি)
+    For Each লুপ - (কোডের পূনরাবৃত্তি)
+    অ্যাসেট বা স্টেটিক ফাইল যুক্ত করা
+    সাবভিউ ব্যবহার করার কৌশল
+    একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ১
+    একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ২
+    একটি পেজযুক্ট টেমপ্লেট প্রজেক্ট - ৩
 
 
+- সপ্তম সপ্তাহ
+    মাইগ্রেশন ব্যবহারের প্রক্রিয়া
+    মাইগ্রেশন ফাইলের নামকরণ পদ্ধতি
+    মাইগ্রেশন স্ট্রাকচার
+    কলাম টাইপ সম্পর্কে ধারণা
+    কলাম টাইপস নিয়ে কাজ (পর্ব-১)
+    কলাম টাইপস নিয়ে কাজ (পর্ব-২)
+    কলাম টাইপস নিয়ে কাজ (পর্ব-৩)
+    কলামের অ্যাট্রিবিউট সম্পর্কে ধারণা
+    কলাম অ্যাট্রিবিউটস নিয়ে কাজ (পর্ব-১)
+    কলাম অ্যাট্রিবিউটস নিয়ে কাজ (পর্ব-২)
+    টেবিলের নাম পরিবর্তন এবং মুছে ফেলা
+    টেবিলে নতুন কলাম যুক্ত করা
+    কলামের নাম পরিবর্তন এবং মুছে ফেলা
+    ডেটাবেসের মধ্যে রিলেশনশিপ
+    রিলেশনশিপ কন্সট্রেইন্ট সমন্ধে ধারণা
+    ডেটাবেস প্রজেক্ট ওভারভিউ
+    মাইগ্রেশন ফাইল তৈরি করা
+    ইউজার্স, ব্র্যান্ডস, ক্যাটেগরিস
+    প্রোফাইলস টেবিল
+    প্রোডাক্টস টেবিল
+    প্রোডাক্ট ডিটেইলস টেবিল
+    প্রোডাক্ট স্লাইডারস টেবিল
+    প্রোডাক্ট রিভিউস টেবিল
+    প্রোডাক্ট উইশ এবং কার্টস টেবিল
+    মাইগ্রেশন রান করা
+    ডেটাবেস ERD ডায়াগ্রাম তৈরি
 
 
+- অষ্টম সপ্তাহ
+    কোয়েরি বিল্ডার পরিচিতি - ১
+    কোয়েরি বিল্ডার পরিচিতি - ২
+    টেবিল এর সমস্ত রো এর ডাটা সংগ্রহ - ১
+    টেবিল এর সমস্ত রো এর ডাটা সংগ্রহ - ২
+    টেবিল থেকে নির্দিষ্ট একটি ডাটা সংগ্রহ - ১
+    টেবিল থেকে নির্দিষ্ট একটি ডাটা সংগ্রহ - ১
+    এগ্রিগেট ফাংশন ব্যবহার - ১
+    এগ্রিগেট ফাংশন ব্যবহার - ২
+    সিলেক্ট ক্লজ এর  ব্যবহার - ১
+    সিলেক্ট ক্লজ এর  ব্যবহার - ২
 
 
+- নবম সপ্তাহ
+    জয়েন সম্পর্কে ধারণা - ১
+    জয়েন সম্পর্কে ধারণা - ২
+    ইনার জয়েন এর ব্যবহার - ১
+    ইনার জয়েন এর ব্যবহার - ২
+    লেফট এবং রাইট জয়েনের ব্যবহার - ১
+    লেফট এবং রাইট জয়েনের ব্যবহার - ২
+    ক্রস জয়েনের ব্যবহার - ১
+    ক্রস জয়েনের ব্যবহার - ২
+    এডভান্সড জয়েন ক্লজ - ১-১
+    এডভান্সড জয়েন ক্লজ - ১-২
+    এডভান্সড জয়েন ক্লজ - ২-১
+    এডভান্সড জয়েন ক্লজ - ২-২
+    ইউনিয়ন এর ব্যবহার - ১
+    ইউনিয়ন এর ব্যবহার - ২
+
+- দশম সপ্তাহ
+    বেসিক হোয়্যার(Where) ক্লজ ব্যবহার - ১
+    বেসিক হোয়্যার(Where) ক্লজ ব্যবহার - ২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ১-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ১-২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ২-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ২-২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৩-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৩-২
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৪-১
+    এডভান্সড হোয়্যার(Where) ক্লজ - ৪-২
+    এসেন্ডিং এবং ডিসেন্ডিং অর্ডার - ১
+    এসেন্ডিং এবং ডিসেন্ডিং অর্ডার - ২
+    Latest Oldest Skip Take - ১
+    Latest Oldest Skip Take - ২
+    গ্রুপ বাই এবং হ্যাভিং ব্যবহার - ১
+    গ্রুপ বাই এবং হ্যাভিং ব্যবহার - ২
+    ইনসার্ট কোয়েরি ব্যবহার - ১
+    ইনসার্ট কোয়েরি ব্যবহার - ২
+    ইনসার্ট কোয়েরি ব্যবহার - ৩
+    ইনসার্ট কোয়েরি ব্যবহার - ৪
+    আপডেট কোয়েরি ব্যবহার - ১
+    আপডেট কোয়েরি ব্যবহার - ২
+    আপডেট কোয়েরি ব্যবহার - ৩
+    আপডেট কোয়েরি ব্যবহার - ৪
+    ইনক্রিমেন্ট ও ডিক্রিমেন্ট অপারেশন - ১
+    ইনক্রিমেন্ট ও ডিক্রিমেন্ট অপারেশন - ২
+    ডিলিট কোয়েরি ব্যবহার - ১
+    ডিলিট কোয়েরি ব্যবহার - ২
+
+- এগার-তম সপ্তাহ
+    ইলুকুয়েন্ট ও-আর-এম পরিচিতি
+    মডেল নামকরণের নিয়মাবলী
+    ডেমো ডাটাবেসের সাথে পরিচিত
+    ডাটা ইনসার্ট - ১
+    ডাটা ইনসার্ট  - ২
+    ডাটা আপডেট করা
+    ফিলেবল প্রপার্টি কেন প্রয়োজন
+    আপডেট অথবা ক্রিয়েট
+    ডাটা ডিলিট করা
+    ইনক্রিমেন্ট/ডিক্রিমেন্ট এর ব্যবহার
+    মডেল এর সমস্ত ডাটা সংগ্রহ করা
+    নির্দিষ্ট কলাম এর ডাটা সংগ্রহ করা
+    অ্যাগ্রিগেশন এর ব্যবহার
+    সিলেক্ট মেথড এর ব্যবহার
+    হোয়্যার মেথড এর ব্যবহার
+    অর্ডারিং, গ্রুপিং, এবং লিমিটিং
+    পেজিনেশন এর ব্যবহার
+    রিলেশনশিপ নিয়ে আলোচনা
+    ওয়ান-টু-ওয়ান রিলেশনশিপ
+    ওয়ান-টু-ম্যানি রিলেশনশিপ
+    মেনি-টু-মেনি রিলেশনশিপ
+
+- বার-তম সপ্তাহ
+    পোর্টফোলিও প্রজেক্ট ওভারভিও
+    পোর্টফোলিও প্রজেক্ট এর আইডিয়া ও চাহিদাসমূহ
+    পোর্টফোলিও প্রজেক্ট এর জন্য UI/UX করা
+    পোর্টফোলিও প্রজেক্টের জন্য ডাটাবেস ডিজাইন
+    পোর্টফোলিও প্রজেক্টের জন্য টেকনোলজি নির্বাচন
+    পোর্টফোলিও প্রজেক্ট এর ডেভেলপমেন্ট ধাপসমূহ
+    পোর্টফোলিও ধাপ ১: মাইগ্রেশন এবং ডাটাবেস প্রস্তুত করা
+    পোর্টফোলিও ধাপ ২: ডামি ডাটা তৈরি করা
+    পোর্টফোলিও ধাপ ৩: কন্ট্রোলার মেথড এবং রাউট তৈরি
+    পোর্টফোলিও ধাপ ৪: কোয়েরি লেখা
+    পোর্টফোলিও ধাপ ৫: ব্যাকএন্ড টেস্টিং
+
+- তের-তম সপ্তাহ
+    পোর্টফোলিও ধাপ ৬: ব্লেড কম্পোনেন্ট ডিজাইন
+    পোর্টফোলিও ধাপ ৭: HTML থেকে ব্লেড টেমপ্লেট এ রূপান্তর
+    পোর্টফোলিও ধাপ ৮: এজ্যাক্স কল করা - ১
+    পোর্টফোলিও ধাপ ৮: এজ্যাক্স কল করা - ২
+    পোর্টফোলিও ধাপ ৮: এজ্যাক্স কল করা - ৩
+    পোর্টফোলিও ধাপ ৮: এজ্যাক্স কল করা - ৪
+    পোর্টফোলিও ধাপ ৮: এজ্যাক্স কল করা - ৫
+    পোর্টফোলিও ধাপ ৯: এসইও প্রপার্টি সংযোজন
+
+- চৌদ্দ-তম সপ্তাহ
+    ইনভেন্টরি প্রজেক্ট রেজিস্ট্রেশন - ১
+    ইনভেন্টরি প্রজেক্ট  রেজিস্ট্রেশন - ২
+    ইনভেন্টরি প্রজেক্ট  JWT দ্বারা অথেনটিকেশন
+    ইনভেন্টরি প্রজেক্ট  ব্যবহারকারী লগইন এবং JWT টোকেন ইস্যু করা
+    ইনভেন্টরি প্রজেক্ট  ওটিপি ইমেইল নিয়ে কাজ - ১
+    ইনভেন্টরি প্রজেক্ট  ওটিপি ইমেইল নিয়ে কাজ - ২
+    ইনভেন্টরি প্রজেক্ট  ওটিপি ইমেইল নিয়ে কাজ - ৩
+    ইনভেন্টরি প্রজেক্ট  ওটিপি যাচাই এবং JWT ইস্যু করা
+    ইনভেন্টরি প্রজেক্ট  টোকেন যাচাইকরণ মিডলওয়্যার এবং পাসওয়ার্ড রিসেট করা
+    ইনভেন্টরি প্রজেক্ট  পাসওয়ার্ড রিসেট সম্পন্ন করা
+    ইনভেন্টরি প্রজেক্ট  ফ্রন্টএন্ড এসেট বিস্তারিত
+    ইনভেন্টরি প্রজেক্ট  ফ্রন্টএন্ড এ  ইউজার লগগিন করা
+    ইনভেন্টরি প্রজেক্ট  ফ্রন্টএন্ড এ  ইউজার রেজিস্ট্রেশন করা
+
+- পনের-তম সপ্তাহ
+    ইনভেন্টরি প্রজেক্ট  ফ্রন্ডএন্ড থেকে ওটিপি প্রেরন
+    ইনভেন্টরি প্রজেক্ট  ফ্রন্ডএন্ড থেকে ওটিপি ভেরিফাই
+    ইনভেন্টরি প্রজেক্ট  ফ্রন্টএন্ড থেকে পাসওয়ার্ড রিসেট করা
+    ইনভেন্টরি প্রজেক্ট  ইউজার লগআউট এবং অ্যাজাইল পদ্ধতির সুবিধা গ্রহণ
+    ইনভেন্টরি প্রজেক্ট  পেজ এবং এন্ডপয়েন্টে অথ রেস্ট্রিকশন
+    ইনভেন্টরি প্রজেক্ট  ইউজার প্রোফাইল নিয়ে কাজ - ১
+    ইনভেন্টরি প্রজেক্ট  ইউজার প্রোফাইল নিয়ে কাজ - ২
+    ইনভেন্টরি প্রজেক্ট  ইউজার প্রোফাইল নিয়ে কাজ - ৩
+    ইনভেন্টরি প্রজেক্ট  ব্যাকএন্ডে ক্যাটেগরি নিয়ে কাজ
+    ইনভেন্টরি প্রজেক্ট  পোস্টম্যান দিয়ে ক্যাটেগরি API টেস্ট করা
+    ইনভেন্টরি প্রজেক্ট  ক্যাটেগরির জন্য জাভাস্ক্রিপ্ট ডাটাটেবল সেটআপ
+    ইনভেন্টরি প্রজেক্ট  পার্ট ২৫-এর ত্রুটি সংশোধন
+    ইনভেন্টরি প্রজেক্ট  ক্যাটেগরি তৈরি এবং লিস্ট রিফ্রেশ করা
+    ইনভেন্টরি প্রজেক্ট  নির্দিষ্ট রো অবজেক্ট থেকে আইডি পুলিং
+    ইনভেন্টরি প্রজেক্ট  স্মার্ট উপায়ে ডাটা মুছে ফেলার পদ্ধতি
+    ইনভেন্টরি প্রজেক্ট  বিস্তারিত তথ্য নিয়ে ক্যাটেগরি আপডেট করা
+
+- ষোল-তম সপ্তাহ
+    ইনভেন্টরি প্রজেক্ট  কাস্টমার মডিউল (পূর্বের মত করে)
+    ইনভেন্টরি প্রজেক্ট  প্রোডাক্ট মডিউল (ব্যাকএন্ড)
+    ইনভেন্টরি প্রজেক্ট  প্রোডাক্ট তৈরি (ব্যাকএন্ড)
+    ইনভেন্টরি প্রজেক্ট  প্রোডাক্ট এর তালিকা, মুছে ফেলা এবং বিস্তারিত  (ব্যাকএন্ড)
+    ইনভেন্টরি প্রজেক্ট  ইমেজসহ বা ইমেজ ছাড়া প্রোডাক্ট আপডেট করা
+    ইনভেন্টরি প্রজেক্ট  প্রোডাক্ট তালিকা এবং মুছে ফেলা (ফ্রন্টএন্ড)
+    ইনভেন্টরি প্রজেক্ট  প্রোডাক্ট তৈরি (ফ্রন্টএন্ড)
+    ইনভেন্টরি প্রজেক্ট  প্রোডাক্ট আপডেট করা (ফ্রন্টএন্ড)
+    ইনভেন্টরি প্রজেক্ট  ইনভয়েস ডাটাবেস ডিজাইন
+    ইনভেন্টরি প্রজেক্ট  ইনভয়েস (ব্যাকএন্ড)
+    ইনভেন্টরি প্রজেক্ট  পোস্টম্যান এ ইনভয়েস ব্যাকএন্ড টেস্ট
+    ইনভেন্টরি প্রজেক্ট  ইনভয়েস নিয়ে ফ্রন্টএন্ড এ কাজ - ১
+    ইনভেন্টরি প্রজেক্ট  ইনভয়েস নিয়ে ফ্রন্টএন্ড এ কাজ - ২
+    ইনভেন্টরি প্রজেক্ট  ইনভয়েস লিস্ট দেখানো এবং প্রিন্ট করা
+    ইনভেন্টরি প্রজেক্ট  ড্যাশবোর্ড সামারি
+    ইনভেন্টরি প্রজেক্ট  রিপোর্ট জেনারেশন
+
+- সতের-তম সপ্তাহ
+    প্রজেক্টের চাহিদা বিশ্লেষন এবং পরিকল্পনা
+    প্রজেক্ট এর জন্য ডাটাবেস ডিজাইন
+    পেমেন্ট গেটওয়ে স্ট্র্যাটেজি ওভারভিউ
+    ব্যাকএন্ড ফিচার ডেভেলপমেন্ট নিয়ে পরিকল্পনা
+    ডাটাবেসের জন্য মাইগ্রেশন ফাইল তৈরি করা
+    মডেল তৈরি এবং এর জন্য রিলেশন তৈরি
 
 
+- আঠার-তম সপ্তাহ
+    ক্যাটেগরি, প্রোডাক্ট, পলিসি এবং কন্ট্রোলার তৈরি করা (ব্যাকএন্ড)
+    ইউজারকে OTP পাঠানো, ভেরিফাই এবং লগআউট করা (ব্যাকএন্ড)
+    ইউজার প্রোফাইল তৈরি, পড়া, আপডেট করা (ব্যাকএন্ড)
+    প্রোডাক্ট রিভিউ তৈরি করা (ব্যাকএন্ড)
+    প্রোডাক্ট উইশলিস্ট ম্যানেজ করা (ব্যাকএন্ড)
+    প্রোডাক্ট কার্ট ম্যানেজ করা (ব্যাকএন্ড)
 
+- উনিশ-তম সপ্তাহ
+    ইনভয়েস ম্যানেজ এবং SSLCommerz এর মাধ্যমে পেমেন্ট করা (ব্যাকএন্ড)
+    ইনভয়েস লিস্ট এবং প্রোডাক্ট ম্যানেজ করা
+    পেমেন্ট সাকসেস, ফেল, ক্যানসেল, এবং IPN ম্যানেজ করা
+    ফ্রন্টএন্ড টেমপ্লেট দিয়ে কাজ শুরু
+    হোমপেজ কম্পোনেন্ট ডিজাইন
+    ক্যাটেগরি, ব্র্যান্ড মেনু ডিজাইন করা
+    হোম স্লাইডার তৈরি করা
+    পপুলার, টপ, নতুন, স্পেশিয়াল, ট্রেন্ডিং প্রডাক্ট
+    হোমপেজে ডাটা লোডিং সিকোয়েন্স ম্যানেজ করা
+    ফুল-স্ক্রিন লোডার ম্যানেজ করা
 
+- বিশ-তম সপ্তাহ
+    ক্যাটেগরি অনুসারে প্রোডাক্ট তালিকা দেখানো
+    ব্র্যান্ড অনুসারে প্রোডাক্ট তালিকা দেখানো
+    সাইট পলিসি পেজ তৈরি করা
+    প্রোডাক্টের বিস্তারিত দেখানো
+    কার্ট বা উইশলিস্টে যুক্ত করার পরে রিডাইরেক্ট করা
+    লগইন যাচাইয়ের জন্য রিকোয়েস্ট
+    লগইন রিডাইরেক্ট ম্যানেজ করা
+    উইশলিস্ট এবং কার্ট প্রসেসে লোডার দেখানো
+    উইশলিস্ট দেখানো
 
-"HTML Introduction
-Basic Web Page
-HTML Text Formatting
-HTML Headings
-HTML Table Tags
-HTML Order List Unorder List
-HTML Form Elements
-HTML Images
-HTML Video
-HTML Audio
-HTML Youtube Embed
-HTML Meta Tags
-HTML No Cache Meta
-HTML Time Marks
-HTML Datalist Tags
-HTML Emojis
-CSS Introduction
-How to add CSS
-CSS Basic Syntax
-CSS Selector
-CSS Background properties
-CSS Border Properties
-Border Radius
-CSS Display Property
-CSS Cursor Property
-CSS Float Property
-CSS Fonts
-CSS Hover
-CSS Important
-CSS Line Height
-CSS Margin
-CSS Padding
-CSS Filter
-CSS Overflow
-CSS Position
-CSS Word Wrap
-CSS Justify content
-CSS text decoration
-CSS Word and letter spacing
-CSS Variable
-Bootstrap installation
-Features you needs to know
-Bootstrap light dark mode
-Layout container row column
-Responsive Layout
-Layout Gutters
-Bootstrap Typography
-Bootstrap Typography
-Bootstrap Images
-Bootstrap Table
-Bootstrap Table
-Bootstrap Form
-Bootstrap Form
-Bootstrap Form
-Bootstrap Form
-Bootstrap alert
-Bootstrap Button
-Bootstrap card
-Dropdown Button
-Bootstrap List Group And Spinner
-Bootstrap progress bar
-Bootstrap Placeholders
-Bootstrap Pagination
-Bootstrap offcanvas
-Bootstrap Modal
-Bootstrap Model More CSS Classes
-Bootstrap Tab View
-Bootstrap Navbar
-Bootstrap Nabvar Backhround Colors And Theme
-Bootstrap Navbar Positioning
-Bootstrap Aspect Ratio
-Bootstrap Text Truncation
-Utilities Background Color Text Color
-Utilities text opacity shadow display
-Utility Opacity and z-index
-Utilities Overflow margin padding visibility
-Utilites Float Radius Vertical Alignment
-JS Introduction
-Hello javaScript
-JS Comment
-JS Variable
-Non Primative Data Type
-Primative Data Type
-Introduce With Operator
-If Else Statement
-Switch Case
-Basic for loop
-Loop break continue
-While Loop
-do while loop
-Javascript function
-Function Parameter
-Function Return
-Javascript Object
-JavaScript Array
-For Loop Over Array
-For In Loop Over Array
-For In Loop Over Object
-Array Concate And Array Form
-Array Filter
-Array Find Find Indx
-Array ForEach Method
-Array Includes And IndexOf
-Array Pop Push Reverse
-Array Slice And Sort
-Array splice
-String Methods
-String Methods
-String Methods
-JavaScript Date Object
-JavaScript Math Object
-JavaScript Numbers
-JS Window Object
-JS Navigator Object
-Js Geolocation
-Js common events
-JS Common Events
-Introduction to DOM
-Finding Elements By DOM
-HTML DOM Document
-HTML DOM Document
-JS DOM Working With Form Input
-DOM Manupulate CSS Class
-Create Element Append Element
-DOM Change Attribute Value
-DOM Query Selector
-Ajax Introduction
-Ajax Practice Introduction
-Ajax Get Request In Details
-Ajax Post Request In Details
-Ajax Post Request in details
-What is software engineering
-Importance of software engineering
-Requirement Engineering
-Requirement Engineering
-Software Development Lifecycle
-Waterfal Model
-Agile Model
-RAD Model
-Incremental Model
-Big Bang Model
-Project Managment
-Project Manager
-Project Planning
-Risk Managment
-Project Sheduling
-ERD
-Software Design
-Coding
-Software Quality Assurance
-Software Maintenance
-Meet Laravel
-Understand Laravel Structure
-Understand Laravel Structure
-Understand Laravel Structure
-Laravel Artisan Commands
-Laravel Artisan Commands
-Laravel Artisan Commands
-Laravel Artisan Commands
-Start Laravel Routing
-Start Routing With Postman
-Server-Side Client-Side
-Request Response Model
-Routing And Controller Concept
-Middleware Concept
-Introducing JSON
-Understanding JSON Structure
-Best practices of JSON
-Understanding HTTP Client
-HTTP Request Segments
-Compare Get and Post
-When use GET When POST
-Request Rate Limiting
-Response Segments
-Response Status Code
-URI Naming Best Practices
-HTTP Cookies in details
-Uses of HTTP Cookies
-Response Best Practices-1
-Response Best Practices-2
-Request Best Practices
-Controller Best Practices
-Midlleware Best Practices
-Encryption Decryption Process
-JSON Web Token JWT Concept
-JWT Strcuture
-JWT Encryotion Decryption Simulate
-CSR SSR Concepts
-Benefits of SSR
-Opposit of SSR
-Benefits of CSR
-Opposit of CSR
-CSR SSR Optimzied Solution
-Simple Request
-Working With Request Parameter
-Working With Request JSON Body
-Working With Request Header
-Working With Request Header Body Params
-Working With Form Data
-Working With File Upload
-IP Address And Content
-Working With Request Cookie
-Different Response Format
-Different Response JSON
-Redirect Response
-Binary And File Download Response
-Cookie Response
-Response Header
-Response View
-Laravel Log Feature
-Laravel Session-1
-Laravel Session-2
-Understanding Structure
-Request Verification
-Request Redirect
-Apply For Route And Route Group
-Apply For Whole Application
-Manupulate Request Header
-Rate Limiting
-Controller Concept In Details
-Single Action Controller
-Resource Controller
-Working With Constructor
-Understanding Blade Template Engine
-Pass Data From Controller
-if else
-switch case
-For Loop
-For Each Loop
-Including Asssets
-Including Subview
-Laravel One Page Templete Project-1
-Laravel One Page Templete Project-2
-Laravel One Page Templete Project-3
-Exploring Migrations
-File Naming Conventions
-Migration Structure
-Exploring Column Types
-Working With Column Types-1
-Working With Column Types-2
-Working With Column Types-3
-Exploring Column Attributes
-Working With Column Attributes-1
-Working With Column Attributes-2
-Rename and Drop Table
-Adding new column to table
-Rename And Drop Column From Table
-Relationship sign
-Understanding Relationship Constraint
-Database Project Overview
-Create Migration Files
-Users Brands Categories
-Profiles
-Products
-Product Details
-Product Sliders
-Product Reviews
-Product Wish And Carts
-Run Migration
-Discover Database ERD Diagram
-Meet Query Builder
-Meet Query Builder
-Retriving All Rows
-Retriving All Rows
-Retriving Single Rows
-Retriving Single Rows
-Aggregates
-Aggregates
-Select Clauses
-Select Clauses
-Understading JOIN
-Understading JOIN
-Inner Join
-Inner Join
-Left Right
-Left Right
-Cross Join
-Cross Join
-Advanced Join Clauses-1
-Advanced Join Clauses-1
-Advanced Join Clauses-2
-Advanced Join Clauses-2
-Unions
-Unions
-Basic Where Clauses
-Basic Where Clauses
-Advance Where Clauses-1
-Advance Where Clauses-1
-Advance Where Clauses-2
-Advance Where Clauses-2
-Advance Where Clauses-3
-Advance Where Clauses-3
-Advance Where Clauses-4
-Advance Where Clauses-4
-order By Asc Desc
-order By Asc Desc
-Latest Oldest Skip Take
-Latest Oldest Skip Take
-Group By And Having
-Group By And Having
-Insert Query
-Insert Query
-Insert Query
-Insert Query
-Update Query
-Update Query
-Update or Insert
-Update or Insert
-Increment Decrement
-Increment Decrement
-Delete Query
-Delete Query
-Meet Eloquent ORM
-Model Naming Conventions
-Meet Our Demo Database
-Insert
-Insert
-Update
-Why Fillable Properties
-Update or Create
-Delete
-Increment Decrement
-Retriving All Rows
-Retriving List Of Column
-Aggregation
-Select Clause
-Where Clause
-Ordering Grouping Limiting
-Pagination
-Understanding relationship
-One to one relationship
-One to many relationship
-Many to many relationship
-Beginneer Project Started
-Project Idea And Requirements
-Project UI UX Completion
-Project Database Design
-Project Technology Selection
-Project Development Steps
-Step 01 Migration And Database
-Step 02 Taking Dummay Data
-Step 03 Controller Methods Routes
-Step 04 Query Writings
-Step 05 Back End Testing
-Step 6 Blade Component Design
-Step 7 HTML to Blade Conversion
-Step 8 Ajax Call
-Step 8 Ajax Call
-Step 8 Ajax Call
-Step 8 Ajax Call
-Step 8 Ajax Call
-Step 9 Seo Properties
-Introduction
-Registration
-Registration
-JWT For Auth
-User Login And Issue JWT Token
-Working With OTP Email-1
-Working With OTP Email-2
-Working With OTP Email-3
-Verify OTP And Issue JWT
-Working With Token Verification Middleware And Password Reset
-Completing Password Reset
-Front End Explain Front End Assets
-Front End User Login
-Front End User Registration
-Front End Send OTP
-Front End Verify OTP
-Front End Reset password
-User Logout And Take Agile Advantages
-Auth Restriction In Page And End Point
-Working With User Profile
-Working With User Profile
-Working With User Profile
-Working With Category Back End
-Test Category API In Postman
-Set Up JavaScript Datatable For Category
-Fix the Part 25 Error
-Working With Category Create And Refresh List
-Understanding id pulling from specific row object
-Working With Delete In Smart Way
-Update Category By Getting Details
-Customer Module As Previous
-Product Module Back End
-Product Create Back End
-Product Listing Delete Details Back End
-Product Update With And Without Image
-Product Front End List And Delete
-Product Front End Create Product
-Product Front End Update Produc
-Invoice Database Design
-Invoice Back End
-Test Invoice Back-End
-Working With Invoice Front End
-Working With Invoice Front End
-Working With Invoice List And Print
-Working With Dashboard Summary
-Report generation
-Project Requirement And Planning
-2 Project Database Desing
-Payment Getaway Strategy Overview
-[Back-End] Back End Features Going To Develop
-[Back-End] Create Migration Files For Database
- [Back-End] Create Models And Define Relationship
- [Back-End] Brand Category Product Policy Controller
-[Back-End] User OTP Send Verify Logout
-[Back-End] User Profile Create Read Update
- [Back-End] Product Review Creation
-[Back End] Managing Product Wish List
-[Back End] Managing Product Cart List
-[Back End] Managing Invoice And Initiate Payment sslcommerz
-[Back-End] Invoice List And Product
- [Back End] Managing Payment Success Fail Cancel IPN
-Start With Front End Template
- Home Page Components
-Catgeories Brands Menu
-Home Slider
-Popular Top New Special Trending Products
-Managing Data Loading Sequence In Home Page
-Managing Full Screen Loader
-Product List By Category.
-Product List By Brands.
-Site Policies Page
- Product Details
-Redirect When AddTo Cart Or Add Wish List
-Login Verify Request
-Manage Login Redirect
-Show Loader At Wish And Cart Process
-Show WIsh List
-Remove Wish List
-Show Cart List And Total & Remove Item s
-Login Logout View Depending On Cookies
-Calling Invoice API And Manage Payment
-Managing Profile And Order History
-Checking Back End Features
-Working With Review
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
- Link
-HTML, CSS, Bootstrap, JavaScript
-Importance of software engineering, Requirement Engineering, Software Development LifecycleWaterfal Model , Agile Model,  RAD Model , Incremental Mode, Big Bang ModelProject Management, Planning,Schedulin্‌g, ERDSoftware Design, Coding, Software Quality Assurance, Software Maintenance
-Laravel Structure, Artisan Commands, Laravel Routing Structure  ,Start Using Postman Server-Side Simulation[Terminology] Request-Response Model, Server Side Client Side ,Deep inside Routing Middleware, Controller Flow in Details[Terminology] JSON Structure & Best Practices ,Middleware, Controller, Request, Response Best Practices, Understanding HTTP Client In details[Terminology] URI Naming Best Practices, HTTP Cookies in details, Encryption Decryption Process[Terminology] JWT Structure & Concept , JWT Encryption Decryption Simulate , CSR SSR Concepts & Best Practices
-Request, Parameter, JSON Body, Request Header Working With Form Data & File Upload Request IP Address And Content ,Working With Request CookieDifferent Response Format, Response JSONRedirect Response, Binary And File Download Response Cookie Response, Response Header, Response View
-Understanding Blade Template Engine & Attributes  Blade if-else, switch-case, loop, master layout, extend, includeBlade yield, content, Blade data passing, Asset binding, Including blade subview Laravel Blade Landing Page Project
-Understanding Blade Template Engine & Attributes  Blade if-else, switch-case, loop, master layout, extend, includeBlade yield, content, Blade data passing, Asset binding, Including blade subview Laravel Blade Landing Page Project
-Exploring Migrations, Naming conventions , Migration Structure, Database columns types in migrationWorking with different columns types and attributesTable Column Modification Add, Rename, Drop , Details on Database RelationshipOne-to-One (1:1), One-to-Many (1:N),Only-One-to-Many (1:N), Many-to-Many (N:M), Self-Referencing RelationshipDetails on ERD Diagram,  Details on Relationship Constraint - RESTRICT, CASCADEE-commerce Database Project
-Why and how Query Builder works , Retrieving All Rows, Single Rows, AggregatesSelect Clauses, Where Clauses, Advance Clauses, Inner Join, Left Right, Right JoinCross Join Advanced Join ClausesUnions, Order, Latest Oldest, Skip, Take, LimitGroup By And Having , Insert, Update, Detele, UpsertPagination, Custom Pagination
-Why and how Eloquent ORM works , Model Naming Conventions  Insert, Update, Delete, Fillable PropertiesIncrement Decrement, Retrieving Rows ColumnsAggregation, Select Clause, Where Clause, Advance ClauseOrdering Grouping Limiting , Pagination, Custom Pagination ,  One-to-One (1:1), One-to-Many (1:N),Only-One-to-Many (1:N), Many-to-Many (N:M)Self-Referencing Relationship ,Details On Database & Model Desing
-Problem, Software development flow, development lifecycle, requirementsLaravel back end developmentJavaScript Ajax front end development
-Working with Login, Registration, Forget Password, Reset Password, Profile managementWorking with Category, Product, Invoice , Report ,Dashboard Summary Front End
-Working with Login, Registration, Forget Password, Reset Password, Profile managementWorking with Category, Product, Invoice , Report ,Dashboard Summary Front End
-Product Brand, Category, Latest Product , Popular product, Featured, Slider, Product Details User Login Using OTP & Profile, Product Cart List management, Wish List managementProduct User Review & Rating SystemCart Checkout using SSL Commerz payment,Order history & Invoice generation
-Product Brand, Category, Latest Product , Popular product, Featured, Slider, Product Details User Login Using OTP & Profile, Product Cart List management, Wish List managementProduct User Review & Rating SystemCart Checkout using SSL Commerz payment,Order history & Invoice generation"
-
+- একুশ-তম সপ্তাহ 
+    উইশলিস্ট থেকে আইটেম রিমুভ করা
+    কার্ট তালিকা দেখানো, মোট যোগফল এবং আইটেম রিমুভ করা
+    লগইন এবং লগআউট ভিউ কুকির উপর নির্ভর করে পরিচালনা করা
+    ইনভয়েস API কল এবং পেমেন্ট পরিচালনা করা
+    প্রোফাইল এবং অর্ডার হিস্টরি ম্যানেজ করা
+    ব্যাকএন্ড ফিচার যাচাই করা
+    রিভিউ নিয়ে কাজ করা

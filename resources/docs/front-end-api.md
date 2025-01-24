@@ -259,7 +259,7 @@ axios.request(options).then(function (response) {
 }
 ```
 
-### Search Products
+### Search Products 
 
 - Method: `GET`
 
@@ -353,8 +353,7 @@ axios.request(options).then(function (response) {
         "options": [
           {
             "id": 1,
-            "name": "Small",
-            "count_of_product": 10
+            "name": "Small"
           },
           ...,
           ...,
@@ -381,4 +380,66 @@ axios.request(options).then(function (response) {
   }
 }
 ```
+
+
+
+### Search Product Load More 
+
+- Method: `GET`
+
+- URL: `https://ecom.nexerb.xyz/api/search-suggestion`
+
+#### Request Example
+
+```js
+const options = {
+    method: 'GET',
+    url: 'https://ecom.nexerb.xyz/api/search-suggestion',
+};
+
+axios.request(options).then(function (response) {
+    //....
+}).catch(function (error) {
+    //...
+});
+```
+
+#### Example Response `200`
+
+```
+{
+  "status": "success",
+  "message": "",
+  "figure": {
+    "keywords": [
+      "blazer",
+      "jackets",
+      "sweatshirt"
+    ],
+    "suggestion": [
+      {
+        "title": "Trending Product",
+        "products": [
+          {
+            "slug": "dallin-vonrueden",
+            "brand": null,
+            "category": null,
+            "thumbnail": "https://via.placeholder.com/300x400.png/0011aa?text=dignissimos",
+            "in_stock": 1,
+            "price": 44449.94986,
+            "discount_amount": 153896295.5,
+            "after_discount_price": -153851845.55014
+          },
+          ....,
+          ....
+        ]
+      },
+      ....,
+      ....,
+    ]
+  }
+}
+```
+
+
 

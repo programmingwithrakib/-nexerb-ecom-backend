@@ -20,11 +20,11 @@ class VariationOptionResource extends JsonResource
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'count_of_product' => Cache::remember("count_of_product_{$this->id}", now()->addMinutes(10), function () {
+            /*'count_of_product' => Cache::remember("count_of_product_{$this->id}", now()->addMinutes(10), function () {
                 return Product::whereHas('product_variants', function ($product_variant) {
                     $product_variant->whereJsonContains('variation_combinations', $this->id);
                 })->count('id');
-            }),
+            }),*/
         ];
     }
 }
